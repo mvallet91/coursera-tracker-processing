@@ -1,0 +1,646 @@
+CRON INFO
+
+INFO:root:Successfully created tables export request jx6rnha745.
+INFO:root:Successfully created clickstream export request o05cuknd5o.
+assessment_higher_education_1582270506261.zip:   0%|          | 0/16 [00:00<?, ?MB/s]assessment_higher_education_1582270506261.zip:   6%|▋         | 1/16 [00:00<00:08,  1.82MB/s]assessment_higher_education_1582270506261.zip:  25%|██▌       | 4/16 [00:00<00:04,  2.48MB/s]assessment_higher_education_1582270506261.zip:  50%|█████     | 8/16 [00:00<00:02,  3.45MB/s]assessment_higher_education_1582270506261.zip:  75%|███████▌  | 12/16 [00:00<00:00,  4.71MB/s]assessment_higher_education_1582270506261.zip: 100%|██████████| 16/16 [00:01<00:00,  6.26MB/s]assessment_higher_education_1582270506261.zip: 17MB [00:01, 15.23MB/s]                        
+access-2020-02-20.csv.gz: 0MB [00:00, ?MB/s]access-2020-02-20.csv.gz: 1MB [00:00,  8.77MB/s]
+video-2020-02-20.csv.gz: 0MB [00:00, ?MB/s]video-2020-02-20.csv.gz: 1MB [00:00,  5.27MB/s]video-2020-02-20.csv.gz: 1MB [00:00,  4.67MB/s]
+INFO:root:Successfully created tables export request wyc09zbig2.
+INFO:root:Successfully created clickstream export request qdzmlfyfxi.
+assessment_higher_education_1582355898255.zip:   0%|          | 0/16 [00:00<?, ?MB/s]assessment_higher_education_1582355898255.zip:   6%|▋         | 1/16 [00:00<00:08,  1.83MB/s]assessment_higher_education_1582355898255.zip:  25%|██▌       | 4/16 [00:00<00:04,  2.50MB/s]assessment_higher_education_1582355898255.zip:  56%|█████▋    | 9/16 [00:00<00:02,  3.44MB/s]assessment_higher_education_1582355898255.zip:  88%|████████▊ | 14/16 [00:01<00:00,  4.73MB/s]assessment_higher_education_1582355898255.zip: 17MB [00:01, 15.25MB/s]                        
+access-2020-02-21.csv.gz: 0MB [00:00, ?MB/s]access-2020-02-21.csv.gz: 1MB [00:00,  8.77MB/s]
+video-2020-02-21.csv.gz: 0MB [00:00, ?MB/s]video-2020-02-21.csv.gz: 1MB [00:00,  3.48MB/s]video-2020-02-21.csv.gz: 1MB [00:00,  3.18MB/s]
+INFO:root:Successfully created tables export request yfaaususfx.
+INFO:root:Successfully created clickstream export request fbfeer98kz.
+assessment_higher_education_1582442610765.zip:   0%|          | 0/16 [00:00<?, ?MB/s]assessment_higher_education_1582442610765.zip:   6%|▋         | 1/16 [00:00<00:08,  1.81MB/s]assessment_higher_education_1582442610765.zip:  25%|██▌       | 4/16 [00:00<00:04,  2.47MB/s]assessment_higher_education_1582442610765.zip:  50%|█████     | 8/16 [00:00<00:02,  3.44MB/s]assessment_higher_education_1582442610765.zip:  69%|██████▉   | 11/16 [00:00<00:01,  4.63MB/s]assessment_higher_education_1582442610765.zip:  94%|█████████▍| 15/16 [00:01<00:00,  6.18MB/s]assessment_higher_education_1582442610765.zip: 17MB [00:01, 15.21MB/s]                        
+access-2020-02-22.csv.gz: 0MB [00:00, ?MB/s]access-2020-02-22.csv.gz: 1MB [00:00, 459.10MB/s]
+video-2020-02-22.csv.gz: 0MB [00:00, ?MB/s]video-2020-02-22.csv.gz: 1MB [00:00,  8.74MB/s]
+INFO:root:Successfully created tables export request ibnkaliwy9.
+INFO:root:Successfully created clickstream export request ebn9b7akni.
+assessment_higher_education_1582529364997.zip:   0%|          | 0/16 [00:00<?, ?MB/s]assessment_higher_education_1582529364997.zip:   6%|▋         | 1/16 [00:00<00:08,  1.83MB/s]assessment_higher_education_1582529364997.zip:  19%|█▉        | 3/16 [00:00<00:05,  2.43MB/s]assessment_higher_education_1582529364997.zip:  50%|█████     | 8/16 [00:00<00:02,  3.35MB/s]assessment_higher_education_1582529364997.zip:  75%|███████▌  | 12/16 [00:01<00:00,  4.49MB/s]assessment_higher_education_1582529364997.zip: 17MB [00:01, 13.96MB/s]                        
+access-2020-02-23.csv.gz: 0MB [00:00, ?MB/s]access-2020-02-23.csv.gz: 1MB [00:00,  8.73MB/s]
+video-2020-02-23.csv.gz: 0MB [00:00, ?MB/s]video-2020-02-23.csv.gz: 1MB [00:00,  3.65MB/s]video-2020-02-23.csv.gz: 1MB [00:00,  3.18MB/s]
+INFO:root:Successfully created tables export request nx8ja6mvae.
+INFO:root:Successfully created clickstream export request 1r9fle445r.
+assessment_higher_education_1582616075152.zip:   0%|          | 0/16 [00:00<?, ?MB/s]assessment_higher_education_1582616075152.zip:   6%|▋         | 1/16 [00:00<00:08,  1.74MB/s]assessment_higher_education_1582616075152.zip:  12%|█▎        | 2/16 [00:00<00:06,  2.31MB/s]assessment_higher_education_1582616075152.zip:  31%|███▏      | 5/16 [00:00<00:03,  3.16MB/s]assessment_higher_education_1582616075152.zip:  56%|█████▋    | 9/16 [00:00<00:01,  4.30MB/s]assessment_higher_education_1582616075152.zip:  81%|████████▏ | 13/16 [00:01<00:00,  5.79MB/s]assessment_higher_education_1582616075152.zip: 17MB [00:01, 13.97MB/s]                        
+access-2020-02-24.csv.gz: 0MB [00:00, ?MB/s]access-2020-02-24.csv.gz: 1MB [00:00,  8.75MB/s]
+video-2020-02-24.csv.gz: 0MB [00:00, ?MB/s]video-2020-02-24.csv.gz: 1MB [00:00,  5.21MB/s]video-2020-02-24.csv.gz: 1MB [00:00,  4.66MB/s]
+INFO:root:Successfully created tables export request hxhfj9froa.
+INFO:root:Successfully created clickstream export request xjmgf5fiip.
+assessment_higher_education_1582702091526.zip:   0%|          | 0/16 [00:00<?, ?MB/s]assessment_higher_education_1582702091526.zip:   6%|▋         | 1/16 [00:00<00:08,  1.76MB/s]assessment_higher_education_1582702091526.zip:  19%|█▉        | 3/16 [00:00<00:05,  2.39MB/s]assessment_higher_education_1582702091526.zip:  44%|████▍     | 7/16 [00:00<00:02,  3.28MB/s]assessment_higher_education_1582702091526.zip:  69%|██████▉   | 11/16 [00:00<00:01,  4.47MB/s]assessment_higher_education_1582702091526.zip:  94%|█████████▍| 15/16 [00:01<00:00,  5.97MB/s]assessment_higher_education_1582702091526.zip: 17MB [00:01, 14.57MB/s]                        
+access-2020-02-25.csv.gz: 0MB [00:00, ?MB/s]access-2020-02-25.csv.gz: 1MB [00:00,  8.76MB/s]
+video-2020-02-25.csv.gz: 0MB [00:00, ?MB/s]video-2020-02-25.csv.gz: 1MB [00:00,  3.49MB/s]video-2020-02-25.csv.gz: 1MB [00:00,  3.18MB/s]
+INFO:root:Successfully created tables export request xnfht1ynyy.
+INFO:root:Successfully created clickstream export request mzhenyk6wb.
+assessment_higher_education_1582790196571.zip:   0%|          | 0/16 [00:00<?, ?MB/s]assessment_higher_education_1582790196571.zip:   6%|▋         | 1/16 [00:00<00:08,  1.82MB/s]assessment_higher_education_1582790196571.zip:  25%|██▌       | 4/16 [00:00<00:04,  2.49MB/s]assessment_higher_education_1582790196571.zip:  50%|█████     | 8/16 [00:00<00:02,  3.43MB/s]assessment_higher_education_1582790196571.zip:  75%|███████▌  | 12/16 [00:01<00:00,  4.66MB/s]assessment_higher_education_1582790196571.zip: 100%|██████████| 16/16 [00:01<00:00,  6.24MB/s]assessment_higher_education_1582790196571.zip: 17MB [00:01, 14.56MB/s]                        
+access-2020-02-26.csv.gz: 0MB [00:00, ?MB/s]access-2020-02-26.csv.gz: 1MB [00:00, 498.02MB/s]
+video-2020-02-26.csv.gz: 0MB [00:00, ?MB/s]video-2020-02-26.csv.gz: 1MB [00:00,  8.75MB/s]
+INFO:root:Successfully created tables export request xic5fneekj.
+INFO:root:Successfully created clickstream export request zp0yxylfrt.
+assessment_higher_education_1582876635131.zip:   0%|          | 0/16 [00:00<?, ?MB/s]assessment_higher_education_1582876635131.zip:   6%|▋         | 1/16 [00:00<00:08,  1.75MB/s]assessment_higher_education_1582876635131.zip:  19%|█▉        | 3/16 [00:00<00:05,  2.38MB/s]assessment_higher_education_1582876635131.zip:  38%|███▊      | 6/16 [00:00<00:03,  3.24MB/s]assessment_higher_education_1582876635131.zip:  62%|██████▎   | 10/16 [00:00<00:01,  4.46MB/s]assessment_higher_education_1582876635131.zip:  88%|████████▊ | 14/16 [00:01<00:00,  5.87MB/s]assessment_higher_education_1582876635131.zip: 17MB [00:01, 13.97MB/s]                        
+access-2020-02-27.csv.gz: 0MB [00:00, ?MB/s]access-2020-02-27.csv.gz: 1MB [00:00,  8.75MB/s]
+video-2020-02-27.csv.gz: 0MB [00:00, ?MB/s]video-2020-02-27.csv.gz: 1MB [00:00,  3.51MB/s]video-2020-02-27.csv.gz: 1MB [00:00,  3.18MB/s]
+INFO:root:Successfully created tables export request xrbximmksn.
+INFO:root:Successfully created clickstream export request xrgi83t1nz.
+access-2020-02-28.csv.gz: 0MB [00:00, ?MB/s]access-2020-02-28.csv.gz: 1MB [00:00,  8.76MB/s]
+video-2020-02-28.csv.gz: 0MB [00:00, ?MB/s]video-2020-02-28.csv.gz: 1MB [00:00,  3.50MB/s]video-2020-02-28.csv.gz: 1MB [00:00,  3.17MB/s]
+INFO:root:Successfully created tables export request tcald8ww60.
+INFO:root:Successfully created clickstream export request zhmvmbv2sg.
+assessment_higher_education_1583047470933.zip:   0%|          | 0/16 [00:00<?, ?MB/s]assessment_higher_education_1583047470933.zip:   6%|▋         | 1/16 [00:00<00:08,  1.76MB/s]assessment_higher_education_1583047470933.zip:  12%|█▎        | 2/16 [00:00<00:06,  2.33MB/s]assessment_higher_education_1583047470933.zip:  31%|███▏      | 5/16 [00:00<00:03,  3.14MB/s]assessment_higher_education_1583047470933.zip:  56%|█████▋    | 9/16 [00:00<00:01,  4.34MB/s]assessment_higher_education_1583047470933.zip:  81%|████████▏ | 13/16 [00:01<00:00,  5.83MB/s]assessment_higher_education_1583047470933.zip: 100%|██████████| 16/16 [00:01<00:00,  7.48MB/s]assessment_higher_education_1583047470933.zip: 17MB [00:01, 13.41MB/s]                        
+access-2020-02-29.csv.gz: 0MB [00:00, ?MB/s]access-2020-02-29.csv.gz: 1MB [00:00, 560.89MB/s]
+video-2020-02-29.csv.gz: 0MB [00:00, ?MB/s]video-2020-02-29.csv.gz: 1MB [00:00, 498.49MB/s]
+INFO:root:Successfully created tables export request pylalsxgkw.
+INFO:root:Successfully created clickstream export request hrnriykudw.
+assessment_higher_education_1583133796257.zip:   0%|          | 0/16 [00:00<?, ?MB/s]assessment_higher_education_1583133796257.zip:   6%|▋         | 1/16 [00:00<00:08,  1.74MB/s]assessment_higher_education_1583133796257.zip:  12%|█▎        | 2/16 [00:00<00:06,  2.32MB/s]assessment_higher_education_1583133796257.zip:  31%|███▏      | 5/16 [00:00<00:03,  3.21MB/s]assessment_higher_education_1583133796257.zip:  50%|█████     | 8/16 [00:00<00:01,  4.32MB/s]assessment_higher_education_1583133796257.zip:  75%|███████▌  | 12/16 [00:01<00:00,  5.78MB/s]assessment_higher_education_1583133796257.zip: 100%|██████████| 16/16 [00:01<00:00,  7.76MB/s]assessment_higher_education_1583133796257.zip: 17MB [00:01, 13.95MB/s]                        
+access-2020-03-01.csv.gz: 0MB [00:00, ?MB/s]access-2020-03-01.csv.gz: 1MB [00:00, 548.56MB/s]
+video-2020-03-01.csv.gz: 0MB [00:00, ?MB/s]video-2020-03-01.csv.gz: 1MB [00:00,  4.24MB/s]video-2020-03-01.csv.gz: 1MB [00:00,  3.84MB/s]
+INFO:root:Successfully created tables export request 9ktq15jxvb.
+INFO:root:Successfully created clickstream export request ojm2eciiao.
+assessment_higher_education_1583220284559.zip:   0%|          | 0/16 [00:00<?, ?MB/s]assessment_higher_education_1583220284559.zip:   6%|▋         | 1/16 [00:00<00:08,  1.75MB/s]assessment_higher_education_1583220284559.zip:  19%|█▉        | 3/16 [00:00<00:05,  2.33MB/s]assessment_higher_education_1583220284559.zip:  44%|████▍     | 7/16 [00:00<00:02,  3.18MB/s]assessment_higher_education_1583220284559.zip:  69%|██████▉   | 11/16 [00:01<00:01,  4.38MB/s]assessment_higher_education_1583220284559.zip:  94%|█████████▍| 15/16 [00:01<00:00,  5.77MB/s]assessment_higher_education_1583220284559.zip: 17MB [00:01, 13.40MB/s]                        
+access-2020-03-02.csv.gz: 0MB [00:00, ?MB/s]access-2020-03-02.csv.gz: 1MB [00:00,  8.75MB/s]
+video-2020-03-02.csv.gz: 0MB [00:00, ?MB/s]video-2020-03-02.csv.gz: 1MB [00:00,  5.39MB/s]video-2020-03-02.csv.gz: 1MB [00:00,  4.66MB/s]
+INFO:root:Successfully created tables export request scurmuin7r.
+INFO:root:Successfully created clickstream export request d5w6pva2ax.
+assessment_higher_education_1583307030551.zip:   0%|          | 0/16 [00:00<?, ?MB/s]assessment_higher_education_1583307030551.zip:   6%|▋         | 1/16 [00:00<00:08,  1.74MB/s]assessment_higher_education_1583307030551.zip:  19%|█▉        | 3/16 [00:00<00:05,  2.32MB/s]assessment_higher_education_1583307030551.zip:  44%|████▍     | 7/16 [00:00<00:02,  3.17MB/s]assessment_higher_education_1583307030551.zip:  69%|██████▉   | 11/16 [00:01<00:01,  4.37MB/s]assessment_higher_education_1583307030551.zip:  94%|█████████▍| 15/16 [00:01<00:00,  5.87MB/s]assessment_higher_education_1583307030551.zip: 17MB [00:01, 13.40MB/s]                        
+access-2020-03-03.csv.gz: 0MB [00:00, ?MB/s]access-2020-03-03.csv.gz: 1MB [00:00,  8.75MB/s]
+video-2020-03-03.csv.gz: 0MB [00:00, ?MB/s]video-2020-03-03.csv.gz: 1MB [00:00,  5.22MB/s]video-2020-03-03.csv.gz: 1MB [00:00,  4.67MB/s]
+INFO:root:Successfully created tables export request kfjfayd3sf.
+INFO:root:Successfully created clickstream export request sn2h4wct9u.
+assessment_higher_education_1583393124382.zip:   0%|          | 0/16 [00:00<?, ?MB/s]assessment_higher_education_1583393124382.zip:   6%|▋         | 1/16 [00:00<00:08,  1.82MB/s]assessment_higher_education_1583393124382.zip:  19%|█▉        | 3/16 [00:00<00:05,  2.47MB/s]assessment_higher_education_1583393124382.zip:  44%|████▍     | 7/16 [00:00<00:02,  3.41MB/s]assessment_higher_education_1583393124382.zip:  62%|██████▎   | 10/16 [00:00<00:01,  4.64MB/s]assessment_higher_education_1583393124382.zip:  88%|████████▊ | 14/16 [00:01<00:00,  6.24MB/s]assessment_higher_education_1583393124382.zip: 17MB [00:01, 14.57MB/s]                        
+access-2020-03-04.csv.gz: 0MB [00:00, ?MB/s]access-2020-03-04.csv.gz: 1MB [00:00,  8.76MB/s]
+video-2020-03-04.csv.gz: 0MB [00:00, ?MB/s]video-2020-03-04.csv.gz: 1MB [00:00,  5.23MB/s]video-2020-03-04.csv.gz: 1MB [00:00,  4.67MB/s]
+INFO:root:Successfully created tables export request ykf5flobat.
+INFO:root:Successfully created clickstream export request ocjbyoj5pr.
+access-2020-03-05.csv.gz: 0MB [00:00, ?MB/s]access-2020-03-05.csv.gz: 1MB [00:00,  8.75MB/s]
+video-2020-03-05.csv.gz: 0MB [00:00, ?MB/s]video-2020-03-05.csv.gz: 1MB [00:00,  3.49MB/s]video-2020-03-05.csv.gz: 1MB [00:00,  3.18MB/s]
+INFO:root:Successfully created tables export request io7bgyw6h4.
+INFO:root:Successfully created clickstream export request fj7ephu07n.
+assessment_higher_education_1583567639123.zip:   0%|          | 0/16 [00:00<?, ?MB/s]assessment_higher_education_1583567639123.zip:   6%|▋         | 1/16 [00:00<00:10,  1.49MB/s]assessment_higher_education_1583567639123.zip:  19%|█▉        | 3/16 [00:00<00:06,  2.01MB/s]assessment_higher_education_1583567639123.zip:  44%|████▍     | 7/16 [00:00<00:03,  2.81MB/s]assessment_higher_education_1583567639123.zip:  69%|██████▉   | 11/16 [00:01<00:01,  3.81MB/s]assessment_higher_education_1583567639123.zip:  94%|█████████▍| 15/16 [00:01<00:00,  5.21MB/s]assessment_higher_education_1583567639123.zip: 17MB [00:01, 12.41MB/s]                        
+access-2020-03-06.csv.gz: 0MB [00:00, ?MB/s]access-2020-03-06.csv.gz: 1MB [00:00,  8.77MB/s]
+video-2020-03-06.csv.gz: 0MB [00:00, ?MB/s]video-2020-03-06.csv.gz: 1MB [00:00,  5.43MB/s]video-2020-03-06.csv.gz: 1MB [00:00,  4.66MB/s]
+INFO:root:Successfully created tables export request 1lwhffc9up.
+INFO:root:Successfully created clickstream export request 6zixm1g7yx.
+assessment_higher_education_1583652794288.zip:   0%|          | 0/16 [00:00<?, ?MB/s]assessment_higher_education_1583652794288.zip:   6%|▋         | 1/16 [00:00<00:08,  1.75MB/s]assessment_higher_education_1583652794288.zip:  19%|█▉        | 3/16 [00:00<00:05,  2.33MB/s]assessment_higher_education_1583652794288.zip:  44%|████▍     | 7/16 [00:00<00:02,  3.22MB/s]assessment_higher_education_1583652794288.zip:  69%|██████▉   | 11/16 [00:01<00:01,  4.39MB/s]assessment_higher_education_1583652794288.zip:  94%|█████████▍| 15/16 [00:01<00:00,  5.97MB/s]assessment_higher_education_1583652794288.zip: 17MB [00:01, 13.41MB/s]                        
+access-2020-03-07.csv.gz: 0MB [00:00, ?MB/s]access-2020-03-07.csv.gz: 1MB [00:00,  8.78MB/s]
+video-2020-03-07.csv.gz: 0MB [00:00, ?MB/s]video-2020-03-07.csv.gz: 1MB [00:00,  5.29MB/s]video-2020-03-07.csv.gz: 1MB [00:00,  4.68MB/s]
+INFO:root:Successfully created tables export request oowdfiq2fi.
+INFO:root:Successfully created clickstream export request doquuqp45p.
+access-2020-03-08.csv.gz: 0MB [00:00, ?MB/s]access-2020-03-08.csv.gz: 1MB [00:00,  8.76MB/s]
+video-2020-03-08.csv.gz: 0MB [00:00, ?MB/s]video-2020-03-08.csv.gz: 1MB [00:00,  3.61MB/s]video-2020-03-08.csv.gz: 1MB [00:00,  3.18MB/s]
+INFO:root:Successfully created tables export request gvnwvuunz3.
+INFO:root:Successfully created clickstream export request x4ptzmzugu.
+access-2020-03-09.csv.gz: 0MB [00:00, ?MB/s]access-2020-03-09.csv.gz: 1MB [00:00,  8.75MB/s]
+video-2020-03-09.csv.gz: 0MB [00:00, ?MB/s]video-2020-03-09.csv.gz: 1MB [00:00,  5.44MB/s]video-2020-03-09.csv.gz: 1MB [00:00,  4.66MB/s]
+INFO:root:Successfully created tables export request amxzlgqxhg.
+INFO:root:Successfully created clickstream export request u2e74srtre.
+access-2020-03-10.csv.gz: 0MB [00:00, ?MB/s]access-2020-03-10.csv.gz: 1MB [00:00,  8.76MB/s]
+video-2020-03-10.csv.gz: 0MB [00:00, ?MB/s]video-2020-03-10.csv.gz: 1MB [00:00,  5.24MB/s]video-2020-03-10.csv.gz: 1MB [00:00,  4.66MB/s]
+INFO:root:Successfully created tables export request e7hgbtydnp.
+INFO:root:Successfully created clickstream export request spqhxnwif1.
+assessment_higher_education_1583999552658.zip:   0%|          | 0/16 [00:00<?, ?MB/s]assessment_higher_education_1583999552658.zip:   6%|▋         | 1/16 [00:00<00:08,  1.81MB/s]assessment_higher_education_1583999552658.zip:  19%|█▉        | 3/16 [00:00<00:05,  2.42MB/s]assessment_higher_education_1583999552658.zip:  31%|███▏      | 5/16 [00:00<00:03,  3.15MB/s]assessment_higher_education_1583999552658.zip:  38%|███▊      | 6/16 [00:01<00:02,  3.64MB/s]assessment_higher_education_1583999552658.zip:  50%|█████     | 8/16 [00:01<00:01,  4.52MB/s]assessment_higher_education_1583999552658.zip:  62%|██████▎   | 10/16 [00:01<00:01,  5.47MB/s]assessment_higher_education_1583999552658.zip:  75%|███████▌  | 12/16 [00:01<00:00,  6.40MB/s]assessment_higher_education_1583999552658.zip:  88%|████████▊ | 14/16 [00:01<00:00,  7.27MB/s]assessment_higher_education_1583999552658.zip: 100%|██████████| 16/16 [00:02<00:00,  8.04MB/s]assessment_higher_education_1583999552658.zip: 17MB [00:02,  8.02MB/s]                        
+access-2020-03-11.csv.gz: 0MB [00:00, ?MB/s]access-2020-03-11.csv.gz: 1MB [00:00,  8.76MB/s]
+video-2020-03-11.csv.gz: 0MB [00:00, ?MB/s]video-2020-03-11.csv.gz: 1MB [00:00,  3.47MB/s]video-2020-03-11.csv.gz: 1MB [00:00,  3.18MB/s]
+INFO:root:Successfully created tables export request m9rmwlf5di.
+INFO:root:Successfully created clickstream export request ww6qraocbj.
+assessment_higher_education_1584084319459.zip:   0%|          | 0/16 [00:00<?, ?MB/s]assessment_higher_education_1584084319459.zip:   6%|▋         | 1/16 [00:00<00:08,  1.75MB/s]assessment_higher_education_1584084319459.zip:  19%|█▉        | 3/16 [00:00<00:05,  2.32MB/s]assessment_higher_education_1584084319459.zip:  44%|████▍     | 7/16 [00:00<00:02,  3.21MB/s]assessment_higher_education_1584084319459.zip:  69%|██████▉   | 11/16 [00:01<00:01,  4.37MB/s]assessment_higher_education_1584084319459.zip:  94%|█████████▍| 15/16 [00:01<00:00,  5.96MB/s]assessment_higher_education_1584084319459.zip: 17MB [00:01, 13.41MB/s]                        
+access-2020-03-12.csv.gz: 0MB [00:00, ?MB/s]access-2020-03-12.csv.gz: 1MB [00:00,  8.77MB/s]
+video-2020-03-12.csv.gz: 0MB [00:00, ?MB/s]video-2020-03-12.csv.gz: 1MB [00:00,  3.50MB/s]video-2020-03-12.csv.gz: 1MB [00:00,  3.18MB/s]
+INFO:root:Successfully created tables export request abeyiykofc.
+INFO:root:Successfully created clickstream export request wmvwwalszg.
+assessment_higher_education_1584170546745.zip:   0%|          | 0/16 [00:00<?, ?MB/s]assessment_higher_education_1584170546745.zip:   6%|▋         | 1/16 [00:00<00:08,  1.76MB/s]assessment_higher_education_1584170546745.zip:  19%|█▉        | 3/16 [00:00<00:05,  2.39MB/s]assessment_higher_education_1584170546745.zip:  44%|████▍     | 7/16 [00:00<00:02,  3.29MB/s]assessment_higher_education_1584170546745.zip:  69%|██████▉   | 11/16 [00:00<00:01,  4.48MB/s]assessment_higher_education_1584170546745.zip:  94%|█████████▍| 15/16 [00:01<00:00,  5.99MB/s]assessment_higher_education_1584170546745.zip: 17MB [00:01, 13.95MB/s]                        
+access-2020-03-13.csv.gz: 0MB [00:00, ?MB/s]access-2020-03-13.csv.gz: 1MB [00:00,  8.75MB/s]
+video-2020-03-13.csv.gz: 0MB [00:00, ?MB/s]video-2020-03-13.csv.gz: 1MB [00:00,  8.76MB/s]
+INFO:root:Successfully created tables export request vmxziabj1c.
+INFO:root:Successfully created clickstream export request q4bfek3gda.
+assessment_higher_education_1584257216811.zip:   0%|          | 0/16 [00:00<?, ?MB/s]assessment_higher_education_1584257216811.zip:   6%|▋         | 1/16 [00:00<00:08,  1.75MB/s]assessment_higher_education_1584257216811.zip:  19%|█▉        | 3/16 [00:00<00:05,  2.40MB/s]assessment_higher_education_1584257216811.zip:  38%|███▊      | 6/16 [00:00<00:03,  3.28MB/s]assessment_higher_education_1584257216811.zip:  62%|██████▎   | 10/16 [00:00<00:01,  4.45MB/s]assessment_higher_education_1584257216811.zip:  88%|████████▊ | 14/16 [00:01<00:00,  5.96MB/s]assessment_higher_education_1584257216811.zip: 17MB [00:01, 13.97MB/s]                        
+access-2020-03-14.csv.gz: 0MB [00:00, ?MB/s]access-2020-03-14.csv.gz: 1MB [00:00, 510.19MB/s]
+video-2020-03-14.csv.gz: 0MB [00:00, ?MB/s]video-2020-03-14.csv.gz: 1MB [00:00,  5.24MB/s]video-2020-03-14.csv.gz: 1MB [00:00,  4.65MB/s]
+INFO:root:Successfully created tables export request hgxehtnjzd.
+INFO:root:Successfully created clickstream export request hhkark1o6x.
+assessment_higher_education_1584344607494.zip:   0%|          | 0/16 [00:00<?, ?MB/s]assessment_higher_education_1584344607494.zip:   6%|▋         | 1/16 [00:00<00:08,  1.76MB/s]assessment_higher_education_1584344607494.zip:  19%|█▉        | 3/16 [00:00<00:05,  2.39MB/s]assessment_higher_education_1584344607494.zip:  38%|███▊      | 6/16 [00:00<00:03,  3.27MB/s]assessment_higher_education_1584344607494.zip:  62%|██████▎   | 10/16 [00:00<00:01,  4.50MB/s]assessment_higher_education_1584344607494.zip:  88%|████████▊ | 14/16 [00:01<00:00,  6.03MB/s]assessment_higher_education_1584344607494.zip: 17MB [00:01, 13.97MB/s]                        
+access-2020-03-15.csv.gz: 0MB [00:00, ?MB/s]access-2020-03-15.csv.gz: 1MB [00:00, 417.39MB/s]
+video-2020-03-15.csv.gz: 0MB [00:00, ?MB/s]video-2020-03-15.csv.gz: 1MB [00:00,  5.24MB/s]video-2020-03-15.csv.gz: 1MB [00:00,  4.67MB/s]
+INFO:root:Successfully created tables export request ysba3qucpv.
+INFO:root:Successfully created clickstream export request 1gke5qsqzt.
+assessment_higher_education_1584429738652.zip:   0%|          | 0/16 [00:00<?, ?MB/s]assessment_higher_education_1584429738652.zip:   6%|▋         | 1/16 [00:00<00:08,  1.76MB/s]assessment_higher_education_1584429738652.zip:  19%|█▉        | 3/16 [00:00<00:05,  2.39MB/s]assessment_higher_education_1584429738652.zip:  44%|████▍     | 7/16 [00:00<00:02,  3.28MB/s]assessment_higher_education_1584429738652.zip:  69%|██████▉   | 11/16 [00:00<00:01,  4.48MB/s]assessment_higher_education_1584429738652.zip:  94%|█████████▍| 15/16 [00:01<00:00,  5.97MB/s]assessment_higher_education_1584429738652.zip: 17MB [00:01, 13.97MB/s]                        
+access-2020-03-16.csv.gz: 0MB [00:00, ?MB/s]access-2020-03-16.csv.gz: 1MB [00:00,  8.74MB/s]
+video-2020-03-16.csv.gz: 0MB [00:00, ?MB/s]video-2020-03-16.csv.gz: 1MB [00:00,  5.21MB/s]video-2020-03-16.csv.gz: 1MB [00:00,  4.65MB/s]
+INFO:root:Successfully created tables export request vem7vkuncz.
+INFO:root:Successfully created clickstream export request 5ref0mkdap.
+access-2020-03-17.csv.gz: 0MB [00:00, ?MB/s]access-2020-03-17.csv.gz: 1MB [00:00,  8.72MB/s]
+video-2020-03-17.csv.gz: 0MB [00:00, ?MB/s]video-2020-03-17.csv.gz: 1MB [00:00,  3.39MB/s]video-2020-03-17.csv.gz: 1MB [00:00,  3.18MB/s]
+INFO:root:Successfully created tables export request qgmcd5mlbe.
+INFO:root:Successfully created clickstream export request ifvdjjkwqg.
+access-2020-03-18.csv.gz: 0MB [00:00, ?MB/s]access-2020-03-18.csv.gz: 1MB [00:00,  8.74MB/s]
+video-2020-03-18.csv.gz: 0MB [00:00, ?MB/s]video-2020-03-18.csv.gz: 1MB [00:00,  5.25MB/s]video-2020-03-18.csv.gz: 1MB [00:00,  4.66MB/s]
+INFO:root:Successfully created tables export request ztw5usshzs.
+INFO:root:Successfully created clickstream export request zip0t0fzns.
+assessment_higher_education_1584688744332.zip:   0%|          | 0/16 [00:00<?, ?MB/s]assessment_higher_education_1584688744332.zip:   6%|▋         | 1/16 [00:00<00:08,  1.76MB/s]assessment_higher_education_1584688744332.zip:  19%|█▉        | 3/16 [00:00<00:05,  2.34MB/s]assessment_higher_education_1584688744332.zip:  44%|████▍     | 7/16 [00:00<00:02,  3.23MB/s]assessment_higher_education_1584688744332.zip:  62%|██████▎   | 10/16 [00:01<00:01,  4.32MB/s]assessment_higher_education_1584688744332.zip:  88%|████████▊ | 14/16 [00:01<00:00,  5.90MB/s]assessment_higher_education_1584688744332.zip: 17MB [00:01, 13.41MB/s]                        
+access-2020-03-19.csv.gz: 0MB [00:00, ?MB/s]access-2020-03-19.csv.gz: 1MB [00:00,  8.75MB/s]
+video-2020-03-19.csv.gz: 0MB [00:00, ?MB/s]video-2020-03-19.csv.gz: 1MB [00:00,  5.18MB/s]video-2020-03-19.csv.gz: 1MB [00:00,  4.67MB/s]
+INFO:root:Successfully created tables export request 1to90wm7hz.
+ERROR:root:Request to https://www.coursera.org/api/onDemandExports.v2/ with body:
+	{"exportType": "RESEARCH_EVENTING", "scope": {"typeName": "courseContext", "definition": {"courseId": "K9cwvyTbEeenjw6oiOFT7g"}}, "statementOfPurpose": "diy widget 2020-03-21", "anonymityLevel": "HASHED_IDS_NO_PII", "interval": {"start": "2020-03-20", "end": "2020-03-20"}}
+received response:
+	{"errorCode":"Not Authorized","message":null,"details":null}
+Please contact data-support@coursera.org or #data-exports on Slack for assistance
+ERROR:root:Problem when running command. Sorry!
+Traceback (most recent call last):
+  File "/usr/local/lib/python2.7/dist-packages/courseraresearchexports/main.py", line 86, in main
+    return args.func(args)
+  File "/usr/local/lib/python2.7/dist-packages/courseraresearchexports/commands/jobs.py", line 50, in request_clickstream
+    export_request_with_metadata = api.post(export_request)[0]
+  File "/usr/local/lib/python2.7/dist-packages/courseraresearchexports/models/utils.py", line 40, in response_transformer_wrapper
+    response.raise_for_status()
+  File "/usr/local/lib/python2.7/dist-packages/requests/models.py", line 844, in raise_for_status
+    raise HTTPError(http_error_msg, response=self)
+HTTPError: 403 Client Error: Forbidden for url: https://www.coursera.org/api/onDemandExports.v2/
+assessment_higher_education_1584775722918.zip:   0%|          | 0/16 [00:00<?, ?MB/s]assessment_higher_education_1584775722918.zip:   6%|▋         | 1/16 [00:00<00:08,  1.75MB/s]assessment_higher_education_1584775722918.zip:  19%|█▉        | 3/16 [00:00<00:05,  2.40MB/s]assessment_higher_education_1584775722918.zip:  38%|███▊      | 6/16 [00:00<00:03,  3.28MB/s]assessment_higher_education_1584775722918.zip:  56%|█████▋    | 9/16 [00:00<00:01,  4.48MB/s]assessment_higher_education_1584775722918.zip:  75%|███████▌  | 12/16 [00:01<00:00,  5.87MB/s]assessment_higher_education_1584775722918.zip: 100%|██████████| 16/16 [00:01<00:00,  7.87MB/s]assessment_higher_education_1584775722918.zip: 17MB [00:01, 14.58MB/s]                        
+INFO:root:Successfully created clickstream export request bxktt6kwr1.
+INFO:root:Successfully created tables export request xnjfhbqawn.
+INFO:root:Successfully created clickstream export request dzjlu3m7nf.
+assessment_higher_education_1584861651193.zip:   0%|          | 0/16 [00:00<?, ?MB/s]assessment_higher_education_1584861651193.zip:   6%|▋         | 1/16 [00:00<00:08,  1.74MB/s]assessment_higher_education_1584861651193.zip:  19%|█▉        | 3/16 [00:00<00:05,  2.36MB/s]assessment_higher_education_1584861651193.zip:  44%|████▍     | 7/16 [00:00<00:02,  3.25MB/s]assessment_higher_education_1584861651193.zip:  62%|██████▎   | 10/16 [00:00<00:01,  4.44MB/s]assessment_higher_education_1584861651193.zip:  88%|████████▊ | 14/16 [00:01<00:00,  5.95MB/s]assessment_higher_education_1584861651193.zip: 17MB [00:01, 13.96MB/s]                        
+access-2020-03-21.csv.gz: 0MB [00:00, ?MB/s]access-2020-03-21.csv.gz: 1MB [00:00,  8.77MB/s]
+video-2020-03-21.csv.gz: 0MB [00:00, ?MB/s]video-2020-03-21.csv.gz: 1MB [00:00,  3.48MB/s]video-2020-03-21.csv.gz: 1MB [00:00,  3.18MB/s]
+INFO:root:Successfully created tables export request wrzx9x38fn.
+INFO:root:Successfully created clickstream export request n5upjjr49u.
+assessment_higher_education_1584948337680.zip:   0%|          | 0/16 [00:00<?, ?MB/s]assessment_higher_education_1584948337680.zip:   6%|▋         | 1/16 [00:00<00:08,  1.75MB/s]assessment_higher_education_1584948337680.zip:  19%|█▉        | 3/16 [00:00<00:05,  2.33MB/s]assessment_higher_education_1584948337680.zip:  38%|███▊      | 6/16 [00:00<00:03,  3.22MB/s]assessment_higher_education_1584948337680.zip:  62%|██████▎   | 10/16 [00:00<00:01,  4.40MB/s]assessment_higher_education_1584948337680.zip:  75%|███████▌  | 12/16 [00:01<00:00,  5.49MB/s]assessment_higher_education_1584948337680.zip: 100%|██████████| 16/16 [00:01<00:00,  7.39MB/s]assessment_higher_education_1584948337680.zip: 17MB [00:01, 13.41MB/s]                        
+access-2020-03-22.csv.gz: 0MB [00:00, ?MB/s]access-2020-03-22.csv.gz: 1MB [00:00,  8.75MB/s]
+video-2020-03-22.csv.gz: 0MB [00:00, ?MB/s]video-2020-03-22.csv.gz: 1MB [00:00,  5.22MB/s]video-2020-03-22.csv.gz: 1MB [00:00,  4.67MB/s]
+INFO:root:Successfully created tables export request 6bovok8una.
+INFO:root:Successfully created clickstream export request bgivwlmsd6.
+assessment_higher_education_1585035073766.zip:   0%|          | 0/16 [00:00<?, ?MB/s]assessment_higher_education_1585035073766.zip:   6%|▋         | 1/16 [00:00<00:08,  1.76MB/s]assessment_higher_education_1585035073766.zip:  19%|█▉        | 3/16 [00:00<00:05,  2.34MB/s]assessment_higher_education_1585035073766.zip:  38%|███▊      | 6/16 [00:00<00:03,  3.24MB/s]assessment_higher_education_1585035073766.zip:  56%|█████▋    | 9/16 [00:01<00:01,  4.25MB/s]assessment_higher_education_1585035073766.zip:  69%|██████▉   | 11/16 [00:01<00:00,  5.56MB/s]assessment_higher_education_1585035073766.zip:  88%|████████▊ | 14/16 [00:01<00:00,  7.33MB/s]assessment_higher_education_1585035073766.zip: 17MB [00:01, 12.43MB/s]                        
+ERROR:root:Download failed.
+Clickstream download links not found. This typically means no data was available for the dates in the specified interval: [u'2020-03-23', u'2020-03-23']
+ERROR:root:Download failed with exception:
+Clickstream download links not found. This typically means no data was available for the dates in the specified interval: [u'2020-03-23', u'2020-03-23']
+ERROR:root:Problem when running command. Sorry!
+Traceback (most recent call last):
+  File "/usr/local/lib/python2.7/dist-packages/courseraresearchexports/main.py", line 86, in main
+    return args.func(args)
+  File "/usr/local/lib/python2.7/dist-packages/courseraresearchexports/commands/jobs.py", line 142, in download
+    utils.download(export_request, dest)
+  File "/usr/local/lib/python2.7/dist-packages/courseraresearchexports/exports/utils.py", line 58, in download
+    .format(interval=export_request.interval))
+ValueError: Clickstream download links not found. This typically means no data was available for the dates in the specified interval: [u'2020-03-23', u'2020-03-23']
+INFO:root:Successfully created tables export request 0kwepcmty9.
+INFO:root:Successfully created clickstream export request kianxa5tyr.
+assessment_higher_education_1585121400329.zip:   0%|          | 0/16 [00:00<?, ?MB/s]assessment_higher_education_1585121400329.zip:   6%|▋         | 1/16 [00:00<00:08,  1.73MB/s]assessment_higher_education_1585121400329.zip:  12%|█▎        | 2/16 [00:00<00:06,  2.30MB/s]assessment_higher_education_1585121400329.zip:  25%|██▌       | 4/16 [00:00<00:03,  3.13MB/s]assessment_higher_education_1585121400329.zip:  38%|███▊      | 6/16 [00:00<00:02,  4.13MB/s]assessment_higher_education_1585121400329.zip:  62%|██████▎   | 10/16 [00:01<00:01,  5.54MB/s]assessment_higher_education_1585121400329.zip:  88%|████████▊ | 14/16 [00:01<00:00,  7.46MB/s]assessment_higher_education_1585121400329.zip: 17MB [00:01, 13.40MB/s]                        
+ERROR:root:Download failed.
+Clickstream download links not found. This typically means no data was available for the dates in the specified interval: [u'2020-03-24', u'2020-03-24']
+ERROR:root:Download failed with exception:
+Clickstream download links not found. This typically means no data was available for the dates in the specified interval: [u'2020-03-24', u'2020-03-24']
+ERROR:root:Problem when running command. Sorry!
+Traceback (most recent call last):
+  File "/usr/local/lib/python2.7/dist-packages/courseraresearchexports/main.py", line 86, in main
+    return args.func(args)
+  File "/usr/local/lib/python2.7/dist-packages/courseraresearchexports/commands/jobs.py", line 142, in download
+    utils.download(export_request, dest)
+  File "/usr/local/lib/python2.7/dist-packages/courseraresearchexports/exports/utils.py", line 58, in download
+    .format(interval=export_request.interval))
+ValueError: Clickstream download links not found. This typically means no data was available for the dates in the specified interval: [u'2020-03-24', u'2020-03-24']
+INFO:root:Successfully created tables export request x5ezmn1alj.
+INFO:root:Successfully created clickstream export request pvmudurkb6.
+assessment_higher_education_1585208259543.zip:   0%|          | 0/16 [00:00<?, ?MB/s]assessment_higher_education_1585208259543.zip:   6%|▋         | 1/16 [00:00<00:08,  1.73MB/s]assessment_higher_education_1585208259543.zip:  19%|█▉        | 3/16 [00:00<00:05,  2.38MB/s]assessment_higher_education_1585208259543.zip:  38%|███▊      | 6/16 [00:00<00:03,  3.20MB/s]assessment_higher_education_1585208259543.zip:  56%|█████▋    | 9/16 [00:00<00:01,  4.37MB/s]assessment_higher_education_1585208259543.zip:  81%|████████▏ | 13/16 [00:01<00:00,  5.74MB/s]assessment_higher_education_1585208259543.zip: 17MB [00:01,  7.72MB/s]                        assessment_higher_education_1585208259543.zip: 17MB [00:01, 13.42MB/s]
+ERROR:root:Download failed.
+Clickstream download links not found. This typically means no data was available for the dates in the specified interval: [u'2020-03-25', u'2020-03-25']
+ERROR:root:Download failed with exception:
+Clickstream download links not found. This typically means no data was available for the dates in the specified interval: [u'2020-03-25', u'2020-03-25']
+ERROR:root:Problem when running command. Sorry!
+Traceback (most recent call last):
+  File "/usr/local/lib/python2.7/dist-packages/courseraresearchexports/main.py", line 86, in main
+    return args.func(args)
+  File "/usr/local/lib/python2.7/dist-packages/courseraresearchexports/commands/jobs.py", line 142, in download
+    utils.download(export_request, dest)
+  File "/usr/local/lib/python2.7/dist-packages/courseraresearchexports/exports/utils.py", line 58, in download
+    .format(interval=export_request.interval))
+ValueError: Clickstream download links not found. This typically means no data was available for the dates in the specified interval: [u'2020-03-25', u'2020-03-25']
+INFO:root:Successfully created tables export request l4u1dnmf03.
+INFO:root:Successfully created clickstream export request vjenz9o0az.
+assessment_higher_education_1585293910194.zip:   0%|          | 0/16 [00:00<?, ?MB/s]assessment_higher_education_1585293910194.zip:   6%|▋         | 1/16 [00:00<00:08,  1.76MB/s]assessment_higher_education_1585293910194.zip:  19%|█▉        | 3/16 [00:00<00:05,  2.35MB/s]assessment_higher_education_1585293910194.zip:  44%|████▍     | 7/16 [00:00<00:02,  3.27MB/s]assessment_higher_education_1585293910194.zip:  69%|██████▉   | 11/16 [00:00<00:01,  4.47MB/s]assessment_higher_education_1585293910194.zip:  94%|█████████▍| 15/16 [00:01<00:00,  5.96MB/s]assessment_higher_education_1585293910194.zip: 17MB [00:01, 13.95MB/s]                        
+ERROR:root:Download failed.
+Clickstream download links not found. This typically means no data was available for the dates in the specified interval: [u'2020-03-26', u'2020-03-26']
+ERROR:root:Download failed with exception:
+Clickstream download links not found. This typically means no data was available for the dates in the specified interval: [u'2020-03-26', u'2020-03-26']
+ERROR:root:Problem when running command. Sorry!
+Traceback (most recent call last):
+  File "/usr/local/lib/python2.7/dist-packages/courseraresearchexports/main.py", line 86, in main
+    return args.func(args)
+  File "/usr/local/lib/python2.7/dist-packages/courseraresearchexports/commands/jobs.py", line 142, in download
+    utils.download(export_request, dest)
+  File "/usr/local/lib/python2.7/dist-packages/courseraresearchexports/exports/utils.py", line 58, in download
+    .format(interval=export_request.interval))
+ValueError: Clickstream download links not found. This typically means no data was available for the dates in the specified interval: [u'2020-03-26', u'2020-03-26']
+INFO:root:Successfully created tables export request 7kxn9etyuf.
+INFO:root:Successfully created clickstream export request vwoqqn7xf4.
+assessment_higher_education_1585380532044.zip:   0%|          | 0/16 [00:00<?, ?MB/s]assessment_higher_education_1585380532044.zip:   6%|▋         | 1/16 [00:00<00:08,  1.76MB/s]assessment_higher_education_1585380532044.zip:  19%|█▉        | 3/16 [00:00<00:05,  2.42MB/s]assessment_higher_education_1585380532044.zip:  38%|███▊      | 6/16 [00:00<00:03,  3.30MB/s]assessment_higher_education_1585380532044.zip:  56%|█████▋    | 9/16 [00:00<00:01,  4.49MB/s]assessment_higher_education_1585380532044.zip:  75%|███████▌  | 12/16 [00:01<00:00,  5.91MB/s]assessment_higher_education_1585380532044.zip: 100%|██████████| 16/16 [00:01<00:00,  7.93MB/s]assessment_higher_education_1585380532044.zip: 17MB [00:01, 13.41MB/s]                        
+access-2020-03-27.csv.gz: 0MB [00:00, ?MB/s]access-2020-03-27.csv.gz: 1MB [00:00,  8.77MB/s]
+video-2020-03-27.csv.gz: 0MB [00:00, ?MB/s]video-2020-03-27.csv.gz: 1MB [00:00,  3.46MB/s]video-2020-03-27.csv.gz: 1MB [00:00,  3.18MB/s]
+INFO:root:Successfully created tables export request gjy9zx7ouo.
+INFO:root:Successfully created clickstream export request 4ixkjccseo.
+assessment_higher_education_1585463595462.zip:   0%|          | 0/16 [00:00<?, ?MB/s]assessment_higher_education_1585463595462.zip:   6%|▋         | 1/16 [00:00<00:08,  1.75MB/s]assessment_higher_education_1585463595462.zip:  19%|█▉        | 3/16 [00:00<00:05,  2.41MB/s]assessment_higher_education_1585463595462.zip:  38%|███▊      | 6/16 [00:00<00:03,  3.29MB/s]assessment_higher_education_1585463595462.zip:  56%|█████▋    | 9/16 [00:00<00:01,  4.39MB/s]assessment_higher_education_1585463595462.zip:  81%|████████▏ | 13/16 [00:01<00:00,  5.98MB/s]assessment_higher_education_1585463595462.zip: 17MB [00:01,  7.89MB/s]                        assessment_higher_education_1585463595462.zip: 17MB [00:01, 13.96MB/s]
+access-2020-03-28.csv.gz: 0MB [00:00, ?MB/s]access-2020-03-28.csv.gz: 1MB [00:00,  8.73MB/s]
+video-2020-03-28.csv.gz: 0MB [00:00, ?MB/s]video-2020-03-28.csv.gz: 1MB [00:00,  3.48MB/s]video-2020-03-28.csv.gz: 1MB [00:00,  3.18MB/s]
+INFO:root:Successfully created tables export request medow8beds.
+INFO:root:Successfully created clickstream export request oqtwoqcozt.
+assessment_higher_education_1585549486016.zip:   0%|          | 0/16 [00:00<?, ?MB/s]assessment_higher_education_1585549486016.zip:   6%|▋         | 1/16 [00:00<00:10,  1.37MB/s]assessment_higher_education_1585549486016.zip:  12%|█▎        | 2/16 [00:00<00:07,  1.81MB/s]assessment_higher_education_1585549486016.zip:  25%|██▌       | 4/16 [00:01<00:04,  2.45MB/s]assessment_higher_education_1585549486016.zip:  44%|████▍     | 7/16 [00:01<00:02,  3.34MB/s]assessment_higher_education_1585549486016.zip:  62%|██████▎   | 10/16 [00:01<00:01,  4.18MB/s]assessment_higher_education_1585549486016.zip:  75%|███████▌  | 12/16 [00:01<00:00,  5.31MB/s]assessment_higher_education_1585549486016.zip:  94%|█████████▍| 15/16 [00:01<00:00,  6.51MB/s]assessment_higher_education_1585549486016.zip: 17MB [00:01,  7.77MB/s]                        assessment_higher_education_1585549486016.zip: 17MB [00:01,  8.63MB/s]
+access-2020-03-29.csv.gz: 0MB [00:00, ?MB/s]access-2020-03-29.csv.gz: 1MB [00:00,  6.94MB/s]access-2020-03-29.csv.gz: 1MB [00:00,  6.09MB/s]
+video-2020-03-29.csv.gz: 0MB [00:00, ?MB/s]video-2020-03-29.csv.gz: 1MB [00:00,  1.71MB/s]video-2020-03-29.csv.gz: 1MB [00:00,  1.63MB/s]
+INFO:root:Successfully created tables export request wqezbtvbgd.
+INFO:root:Successfully created clickstream export request 8wzyrvebkh.
+assessment_higher_education_1585635756350.zip:   0%|          | 0/16 [00:00<?, ?MB/s]assessment_higher_education_1585635756350.zip:   6%|▋         | 1/16 [00:19<04:58, 19.88s/MB]assessment_higher_education_1585635756350.zip:  12%|█▎        | 2/16 [00:51<05:26, 23.31s/MB]assessment_higher_education_1585635756350.zip:  19%|█▉        | 3/16 [01:25<05:47, 26.76s/MB]ERROR:root:Download failed.
+("Connection broken: error(104, 'Connection reset by peer')", error(104, 'Connection reset by peer'))
+ERROR:root:Download failed with exception:
+("Connection broken: error(104, 'Connection reset by peer')", error(104, 'Connection reset by peer'))
+ERROR:root:Problem when running command. Sorry!
+Traceback (most recent call last):
+  File "/usr/local/lib/python2.7/dist-packages/courseraresearchexports/main.py", line 86, in main
+    return args.func(args)
+  File "/usr/local/lib/python2.7/dist-packages/courseraresearchexports/commands/jobs.py", line 142, in download
+    utils.download(export_request, dest)
+  File "/usr/local/lib/python2.7/dist-packages/courseraresearchexports/exports/utils.py", line 46, in download
+    return [download_url(export_request.download_link, dest)]
+  File "/usr/local/lib/python2.7/dist-packages/courseraresearchexports/exports/utils.py", line 86, in download_url
+    desc=filename):
+  File "/usr/local/lib/python2.7/dist-packages/tqdm/std.py", line 1097, in __iter__
+    for obj in iterable:
+  File "/usr/local/lib/python2.7/dist-packages/requests/models.py", line 667, in generate
+    raise ChunkedEncodingError(e)
+ChunkedEncodingError: ("Connection broken: error(104, 'Connection reset by peer')", error(104, 'Connection reset by peer'))
+assessment_higher_education_1585635756350.zip:  19%|█▉        | 3/16 [09:40<41:54, 193.46s/MB]
+access-2020-03-30.csv.gz: 0MB [00:00, ?MB/s]access-2020-03-30.csv.gz: 1MB [00:12, 12.99s/MB]access-2020-03-30.csv.gz: 1MB [00:13, 13.02s/MB]
+video-2020-03-30.csv.gz: 0MB [00:00, ?MB/s]ERROR:root:Download failed.
+("Connection broken: error(104, 'Connection reset by peer')", error(104, 'Connection reset by peer'))
+ERROR:root:Download failed with exception:
+("Connection broken: error(104, 'Connection reset by peer')", error(104, 'Connection reset by peer'))
+ERROR:root:Problem when running command. Sorry!
+Traceback (most recent call last):
+  File "/usr/local/lib/python2.7/dist-packages/courseraresearchexports/main.py", line 86, in main
+    return args.func(args)
+  File "/usr/local/lib/python2.7/dist-packages/courseraresearchexports/commands/jobs.py", line 142, in download
+    utils.download(export_request, dest)
+  File "/usr/local/lib/python2.7/dist-packages/courseraresearchexports/exports/utils.py", line 59, in download
+    return [download_url(link, dest) for link in download_links]
+  File "/usr/local/lib/python2.7/dist-packages/courseraresearchexports/exports/utils.py", line 86, in download_url
+    desc=filename):
+  File "/usr/local/lib/python2.7/dist-packages/tqdm/std.py", line 1097, in __iter__
+    for obj in iterable:
+  File "/usr/local/lib/python2.7/dist-packages/requests/models.py", line 667, in generate
+    raise ChunkedEncodingError(e)
+ChunkedEncodingError: ("Connection broken: error(104, 'Connection reset by peer')", error(104, 'Connection reset by peer'))
+video-2020-03-30.csv.gz: 0MB [05:17, ?MB/s]
+Traceback (most recent call last):
+  File "/home/learning-tracker/automater/data_pipeline.py", line 110, in <module>
+    process_files()
+  File "/home/learning-tracker/automater/data_pipeline.py", line 94, in process_files
+    with ZipFile(file, 'r') as zipObj:
+  File "/usr/lib/python3.6/zipfile.py", line 1131, in __init__
+    self._RealGetContents()
+  File "/usr/lib/python3.6/zipfile.py", line 1198, in _RealGetContents
+    raise BadZipFile("File is not a zip file")
+zipfile.BadZipFile: File is not a zip file
+INFO:root:Successfully created tables export request ukpraywjaw.
+INFO:root:Successfully created clickstream export request tywxzymo7a.
+assessment_higher_education_1585722477649.zip:   0%|          | 0/16 [00:00<?, ?MB/s]assessment_higher_education_1585722477649.zip:   6%|▋         | 1/16 [00:29<07:18, 29.20s/MB]assessment_higher_education_1585722477649.zip:  12%|█▎        | 2/16 [00:58<06:48, 29.16s/MB]assessment_higher_education_1585722477649.zip:  19%|█▉        | 3/16 [02:01<08:30, 39.29s/MB]ERROR:root:Download failed.
+("Connection broken: error(104, 'Connection reset by peer')", error(104, 'Connection reset by peer'))
+ERROR:root:Download failed with exception:
+("Connection broken: error(104, 'Connection reset by peer')", error(104, 'Connection reset by peer'))
+ERROR:root:Problem when running command. Sorry!
+Traceback (most recent call last):
+  File "/usr/local/lib/python2.7/dist-packages/courseraresearchexports/main.py", line 86, in main
+    return args.func(args)
+  File "/usr/local/lib/python2.7/dist-packages/courseraresearchexports/commands/jobs.py", line 142, in download
+    utils.download(export_request, dest)
+  File "/usr/local/lib/python2.7/dist-packages/courseraresearchexports/exports/utils.py", line 46, in download
+    return [download_url(export_request.download_link, dest)]
+  File "/usr/local/lib/python2.7/dist-packages/courseraresearchexports/exports/utils.py", line 86, in download_url
+    desc=filename):
+  File "/usr/local/lib/python2.7/dist-packages/tqdm/std.py", line 1097, in __iter__
+    for obj in iterable:
+  File "/usr/local/lib/python2.7/dist-packages/requests/models.py", line 667, in generate
+    raise ChunkedEncodingError(e)
+ChunkedEncodingError: ("Connection broken: error(104, 'Connection reset by peer')", error(104, 'Connection reset by peer'))
+assessment_higher_education_1585722477649.zip:  19%|█▉        | 3/16 [07:44<33:34, 155.00s/MB]
+access-2020-03-31.csv.gz: 0MB [00:00, ?MB/s]INFO:root:Successfully created tables export request x1tck5xmmf.
+INFO:root:Successfully created clickstream export request bjkdeicm2y.
+assessment_higher_education_1585808753327.zip:   0%|          | 0/16 [00:00<?, ?MB/s]assessment_higher_education_1585808753327.zip:   6%|▋         | 1/16 [00:24<06:13, 24.92s/MB]assessment_higher_education_1585808753327.zip:  12%|█▎        | 2/16 [01:04<06:51, 29.39s/MB]INFO:root:Successfully created tables export request uhi1odixvc.
+INFO:root:Successfully created clickstream export request jxacg9bwbb.
+assessment_higher_education_1585894898259.zip:   0%|          | 0/16 [00:00<?, ?MB/s]assessment_higher_education_1585894898259.zip:   6%|▋         | 1/16 [00:00<00:08,  1.75MB/s]assessment_higher_education_1585894898259.zip:  19%|█▉        | 3/16 [00:00<00:05,  2.40MB/s]assessment_higher_education_1585894898259.zip:  38%|███▊      | 6/16 [00:00<00:03,  3.29MB/s]assessment_higher_education_1585894898259.zip:  62%|██████▎   | 10/16 [00:00<00:01,  4.45MB/s]assessment_higher_education_1585894898259.zip:  88%|████████▊ | 14/16 [00:01<00:00,  6.05MB/s]assessment_higher_education_1585894898259.zip: 17MB [00:01, 14.57MB/s]                        
+access-2020-04-02.csv.gz: 0MB [00:00, ?MB/s]access-2020-04-02.csv.gz: 1MB [00:00,  8.76MB/s]
+video-2020-04-02.csv.gz: 0MB [00:00, ?MB/s]video-2020-04-02.csv.gz: 1MB [00:00,  3.47MB/s]video-2020-04-02.csv.gz: 1MB [00:00,  3.18MB/s]
+INFO:root:Successfully created tables export request pelqscqmvg.
+INFO:root:Successfully created clickstream export request u1nrmzg384.
+assessment_higher_education_1585981358529.zip:   0%|          | 0/16 [00:00<?, ?MB/s]assessment_higher_education_1585981358529.zip:   6%|▋         | 1/16 [00:00<00:08,  1.74MB/s]assessment_higher_education_1585981358529.zip:  19%|█▉        | 3/16 [00:00<00:05,  2.32MB/s]assessment_higher_education_1585981358529.zip:  44%|████▍     | 7/16 [00:00<00:02,  3.20MB/s]assessment_higher_education_1585981358529.zip:  69%|██████▉   | 11/16 [00:01<00:01,  4.35MB/s]assessment_higher_education_1585981358529.zip:  94%|█████████▍| 15/16 [00:01<00:00,  5.85MB/s]assessment_higher_education_1585981358529.zip: 17MB [00:01, 13.41MB/s]                        
+access-2020-04-03.csv.gz: 0MB [00:00, ?MB/s]access-2020-04-03.csv.gz: 1MB [00:00,  8.77MB/s]
+video-2020-04-03.csv.gz: 0MB [00:00, ?MB/s]video-2020-04-03.csv.gz: 1MB [00:00,  5.23MB/s]video-2020-04-03.csv.gz: 1MB [00:00,  4.66MB/s]
+INFO:root:Successfully created tables export request qtyglccf59.
+INFO:root:Successfully created clickstream export request ujvekcan3v.
+assessment_higher_education_1586067944298.zip:   0%|          | 0/16 [00:00<?, ?MB/s]assessment_higher_education_1586067944298.zip:   6%|▋         | 1/16 [00:00<00:08,  1.74MB/s]assessment_higher_education_1586067944298.zip:  19%|█▉        | 3/16 [00:00<00:05,  2.40MB/s]assessment_higher_education_1586067944298.zip:  38%|███▊      | 6/16 [00:00<00:03,  3.22MB/s]assessment_higher_education_1586067944298.zip:  62%|██████▎   | 10/16 [00:00<00:01,  4.44MB/s]assessment_higher_education_1586067944298.zip:  81%|████████▏ | 13/16 [00:01<00:00,  5.70MB/s]assessment_higher_education_1586067944298.zip: 17MB [00:01,  7.66MB/s]                        assessment_higher_education_1586067944298.zip: 17MB [00:01, 13.42MB/s]
+access-2020-04-04.csv.gz: 0MB [00:00, ?MB/s]access-2020-04-04.csv.gz: 1MB [00:00,  8.77MB/s]
+video-2020-04-04.csv.gz: 0MB [00:00, ?MB/s]video-2020-04-04.csv.gz: 1MB [00:00,  3.51MB/s]video-2020-04-04.csv.gz: 1MB [00:00,  3.18MB/s]
+INFO:root:Successfully created tables export request liivtphvr1.
+INFO:root:Successfully created clickstream export request q6lsqhcft5.
+assessment_higher_education_1586154641837.zip:   0%|          | 0/17 [00:00<?, ?MB/s]assessment_higher_education_1586154641837.zip:   6%|▌         | 1/17 [00:00<00:09,  1.76MB/s]assessment_higher_education_1586154641837.zip:  18%|█▊        | 3/17 [00:00<00:05,  2.34MB/s]assessment_higher_education_1586154641837.zip:  35%|███▌      | 6/17 [00:00<00:03,  3.20MB/s]assessment_higher_education_1586154641837.zip:  47%|████▋     | 8/17 [00:00<00:02,  4.28MB/s]assessment_higher_education_1586154641837.zip:  71%|███████   | 12/17 [00:01<00:00,  5.74MB/s]assessment_higher_education_1586154641837.zip:  88%|████████▊ | 15/17 [00:01<00:00,  7.58MB/s]assessment_higher_education_1586154641837.zip: 18MB [00:01, 13.16MB/s]                        
+access-2020-04-05.csv.gz: 0MB [00:00, ?MB/s]access-2020-04-05.csv.gz: 1MB [00:00,  8.77MB/s]
+video-2020-04-05.csv.gz: 0MB [00:00, ?MB/s]video-2020-04-05.csv.gz: 1MB [00:00,  2.62MB/s]video-2020-04-05.csv.gz: 1MB [00:00,  2.41MB/s]
+INFO:root:Successfully created tables export request s6qsm9jh4j.
+INFO:root:Successfully created clickstream export request iawwxwbyjr.
+assessment_higher_education_1586241012723.zip:   0%|          | 0/17 [00:00<?, ?MB/s]assessment_higher_education_1586241012723.zip:   6%|▌         | 1/17 [00:00<00:09,  1.77MB/s]assessment_higher_education_1586241012723.zip:  18%|█▊        | 3/17 [00:00<00:05,  2.36MB/s]assessment_higher_education_1586241012723.zip:  35%|███▌      | 6/17 [00:00<00:03,  3.26MB/s]assessment_higher_education_1586241012723.zip:  59%|█████▉    | 10/17 [00:00<00:01,  4.44MB/s]assessment_higher_education_1586241012723.zip:  76%|███████▋  | 13/17 [00:01<00:00,  5.83MB/s]assessment_higher_education_1586241012723.zip: 100%|██████████| 17/17 [00:01<00:00,  7.81MB/s]assessment_higher_education_1586241012723.zip: 18MB [00:01, 14.28MB/s]                        
+access-2020-04-06.csv.gz: 0MB [00:00, ?MB/s]access-2020-04-06.csv.gz: 1MB [00:00,  8.75MB/s]
+video-2020-04-06.csv.gz: 0MB [00:00, ?MB/s]video-2020-04-06.csv.gz: 1MB [00:00,  2.62MB/s]video-2020-04-06.csv.gz: 1MB [00:00,  2.41MB/s]
+INFO:root:Successfully created tables export request uwvnc0c0qb.
+INFO:root:Successfully created clickstream export request 1qdkp7mbft.
+assessment_higher_education_1586327711978.zip:   0%|          | 0/17 [00:00<?, ?MB/s]assessment_higher_education_1586327711978.zip:   6%|▌         | 1/17 [00:00<00:09,  1.77MB/s]assessment_higher_education_1586327711978.zip:  18%|█▊        | 3/17 [00:00<00:05,  2.36MB/s]assessment_higher_education_1586327711978.zip:  35%|███▌      | 6/17 [00:00<00:03,  3.26MB/s]assessment_higher_education_1586327711978.zip:  53%|█████▎    | 9/17 [00:00<00:01,  4.40MB/s]assessment_higher_education_1586327711978.zip:  76%|███████▋  | 13/17 [00:01<00:00,  5.87MB/s]assessment_higher_education_1586327711978.zip: 100%|██████████| 17/17 [00:01<00:00,  7.87MB/s]assessment_higher_education_1586327711978.zip: 18MB [00:01, 13.65MB/s]                        
+access-2020-04-07.csv.gz: 0MB [00:00, ?MB/s]access-2020-04-07.csv.gz: 1MB [00:00,  8.77MB/s]
+video-2020-04-07.csv.gz: 0MB [00:00, ?MB/s]video-2020-04-07.csv.gz: 1MB [00:00,  2.61MB/s]video-2020-04-07.csv.gz: 1MB [00:00,  2.41MB/s]
+INFO:root:Successfully created tables export request h1ht45dlte.
+INFO:root:Successfully created clickstream export request f3vmghohmf.
+assessment_higher_education_1586413784407.zip:   0%|          | 0/17 [00:00<?, ?MB/s]assessment_higher_education_1586413784407.zip:   6%|▌         | 1/17 [00:00<00:09,  1.77MB/s]assessment_higher_education_1586413784407.zip:  18%|█▊        | 3/17 [00:00<00:05,  2.43MB/s]assessment_higher_education_1586413784407.zip:  41%|████      | 7/17 [00:00<00:03,  3.31MB/s]assessment_higher_education_1586413784407.zip:  65%|██████▍   | 11/17 [00:00<00:01,  4.56MB/s]assessment_higher_education_1586413784407.zip:  88%|████████▊ | 15/17 [00:01<00:00,  6.11MB/s]assessment_higher_education_1586413784407.zip: 18MB [00:01, 14.79MB/s]                        
+access-2020-04-08.csv.gz: 0MB [00:00, ?MB/s]access-2020-04-08.csv.gz: 1MB [00:00,  8.76MB/s]
+video-2020-04-08.csv.gz: 0MB [00:00, ?MB/s]video-2020-04-08.csv.gz: 1MB [00:00,  3.02MB/s]video-2020-04-08.csv.gz: 1MB [00:00,  2.74MB/s]
+INFO:root:Successfully created tables export request upfopusany.
+INFO:root:Successfully created clickstream export request fqknqdz7wz.
+assessment_higher_education_1586499883199.zip:   0%|          | 0/17 [00:00<?, ?MB/s]assessment_higher_education_1586499883199.zip:   6%|▌         | 1/17 [00:00<00:09,  1.74MB/s]assessment_higher_education_1586499883199.zip:  18%|█▊        | 3/17 [00:00<00:05,  2.39MB/s]assessment_higher_education_1586499883199.zip:  35%|███▌      | 6/17 [00:00<00:03,  3.26MB/s]assessment_higher_education_1586499883199.zip:  53%|█████▎    | 9/17 [00:00<00:01,  4.37MB/s]assessment_higher_education_1586499883199.zip:  76%|███████▋  | 13/17 [00:01<00:00,  5.95MB/s]assessment_higher_education_1586499883199.zip: 100%|██████████| 17/17 [00:01<00:00,  7.63MB/s]assessment_higher_education_1586499883199.zip: 18MB [00:01, 14.20MB/s]                        
+access-2020-04-09.csv.gz: 0MB [00:00, ?MB/s]access-2020-04-09.csv.gz: 1MB [00:00,  8.75MB/s]
+video-2020-04-09.csv.gz: 0MB [00:00, ?MB/s]video-2020-04-09.csv.gz: 1MB [00:00,  3.49MB/s]video-2020-04-09.csv.gz: 1MB [00:00,  3.18MB/s]
+INFO:root:Successfully created tables export request pt9guoe4by.
+INFO:root:Successfully created clickstream export request uwglgmvz06.
+assessment_higher_education_1586586394134.zip:   0%|          | 0/17 [00:00<?, ?MB/s]assessment_higher_education_1586586394134.zip:   6%|▌         | 1/17 [00:00<00:09,  1.74MB/s]assessment_higher_education_1586586394134.zip:  18%|█▊        | 3/17 [00:00<00:05,  2.40MB/s]assessment_higher_education_1586586394134.zip:  35%|███▌      | 6/17 [00:00<00:03,  3.27MB/s]assessment_higher_education_1586586394134.zip:  59%|█████▉    | 10/17 [00:00<00:01,  4.45MB/s]assessment_higher_education_1586586394134.zip:  82%|████████▏ | 14/17 [00:01<00:00,  5.96MB/s]assessment_higher_education_1586586394134.zip: 18MB [00:01,  7.82MB/s]                        assessment_higher_education_1586586394134.zip: 18MB [00:01, 14.21MB/s]
+access-2020-04-10.csv.gz: 0MB [00:00, ?MB/s]access-2020-04-10.csv.gz: 1MB [00:00,  8.77MB/s]
+video-2020-04-10.csv.gz: 0MB [00:00, ?MB/s]video-2020-04-10.csv.gz: 1MB [00:00,  2.62MB/s]video-2020-04-10.csv.gz: 1MB [00:00,  2.41MB/s]
+INFO:root:Successfully created tables export request qtqzozpuor.
+INFO:root:Successfully created clickstream export request w1x3ayhwuo.
+assessment_higher_education_1586672759832.zip:   0%|          | 0/17 [00:00<?, ?MB/s]assessment_higher_education_1586672759832.zip:   6%|▌         | 1/17 [00:00<00:09,  1.76MB/s]assessment_higher_education_1586672759832.zip:  18%|█▊        | 3/17 [00:00<00:05,  2.42MB/s]assessment_higher_education_1586672759832.zip:  35%|███▌      | 6/17 [00:00<00:03,  3.30MB/s]assessment_higher_education_1586672759832.zip:  53%|█████▎    | 9/17 [00:00<00:01,  4.43MB/s]assessment_higher_education_1586672759832.zip:  71%|███████   | 12/17 [00:01<00:00,  5.93MB/s]assessment_higher_education_1586672759832.zip:  94%|█████████▍| 16/17 [00:01<00:00,  7.95MB/s]assessment_higher_education_1586672759832.zip: 18MB [00:01, 14.20MB/s]                        
+access-2020-04-11.csv.gz: 0MB [00:00, ?MB/s]access-2020-04-11.csv.gz: 1MB [00:00,  8.77MB/s]
+video-2020-04-11.csv.gz: 0MB [00:00, ?MB/s]video-2020-04-11.csv.gz: 1MB [00:00,  2.62MB/s]video-2020-04-11.csv.gz: 1MB [00:00,  2.41MB/s]
+INFO:root:Successfully created tables export request 5dzoto4at3.
+INFO:root:Successfully created clickstream export request lykuue02lj.
+assessment_higher_education_1586759764871.zip:   0%|          | 0/17 [00:00<?, ?MB/s]assessment_higher_education_1586759764871.zip:   6%|▌         | 1/17 [00:00<00:09,  1.74MB/s]assessment_higher_education_1586759764871.zip:  18%|█▊        | 3/17 [00:00<00:06,  2.32MB/s]assessment_higher_education_1586759764871.zip:  41%|████      | 7/17 [00:00<00:03,  3.20MB/s]assessment_higher_education_1586759764871.zip:  65%|██████▍   | 11/17 [00:01<00:01,  4.35MB/s]assessment_higher_education_1586759764871.zip:  88%|████████▊ | 15/17 [00:01<00:00,  5.94MB/s]assessment_higher_education_1586759764871.zip: 18MB [00:01, 14.20MB/s]                        
+access-2020-04-12.csv.gz: 0MB [00:00, ?MB/s]access-2020-04-12.csv.gz: 1MB [00:00,  8.74MB/s]
+video-2020-04-12.csv.gz: 0MB [00:00, ?MB/s]video-2020-04-12.csv.gz: 1MB [00:00,  5.26MB/s]video-2020-04-12.csv.gz: 1MB [00:00,  4.67MB/s]
+INFO:root:Successfully created tables export request klnqgyzicu.
+INFO:root:Successfully created clickstream export request dmtj5vbc0m.
+assessment_higher_education_1586845537488.zip:   0%|          | 0/17 [00:00<?, ?MB/s]assessment_higher_education_1586845537488.zip:   6%|▌         | 1/17 [00:00<00:09,  1.74MB/s]assessment_higher_education_1586845537488.zip:  12%|█▏        | 2/17 [00:00<00:06,  2.32MB/s]assessment_higher_education_1586845537488.zip:  29%|██▉       | 5/17 [00:00<00:03,  3.20MB/s]assessment_higher_education_1586845537488.zip:  47%|████▋     | 8/17 [00:00<00:02,  4.21MB/s]assessment_higher_education_1586845537488.zip:  71%|███████   | 12/17 [00:01<00:00,  5.73MB/s]assessment_higher_education_1586845537488.zip:  94%|█████████▍| 16/17 [00:01<00:00,  7.41MB/s]assessment_higher_education_1586845537488.zip: 18MB [00:01, 14.21MB/s]                        
+access-2020-04-13.csv.gz: 0MB [00:00, ?MB/s]access-2020-04-13.csv.gz: 1MB [00:00,  8.77MB/s]
+video-2020-04-13.csv.gz: 0MB [00:00, ?MB/s]video-2020-04-13.csv.gz: 1MB [00:00,  2.61MB/s]video-2020-04-13.csv.gz: 1MB [00:00,  2.41MB/s]
+INFO:root:Successfully created tables export request wt3i1satgy.
+INFO:root:Successfully created clickstream export request segiz8a1ng.
+assessment_higher_education_1586931878862.zip:   0%|          | 0/17 [00:00<?, ?MB/s]assessment_higher_education_1586931878862.zip:   6%|▌         | 1/17 [00:00<00:08,  1.80MB/s]assessment_higher_education_1586931878862.zip:  18%|█▊        | 3/17 [00:00<00:05,  2.44MB/s]assessment_higher_education_1586931878862.zip:  41%|████      | 7/17 [00:00<00:02,  3.36MB/s]assessment_higher_education_1586931878862.zip:  65%|██████▍   | 11/17 [00:00<00:01,  4.59MB/s]assessment_higher_education_1586931878862.zip:  88%|████████▊ | 15/17 [00:01<00:00,  6.11MB/s]assessment_higher_education_1586931878862.zip: 18MB [00:01, 14.76MB/s]                        
+access-2020-04-14.csv.gz: 0MB [00:00, ?MB/s]access-2020-04-14.csv.gz: 1MB [00:00,  8.76MB/s]
+video-2020-04-14.csv.gz: 0MB [00:00, ?MB/s]video-2020-04-14.csv.gz: 1MB [00:00,  2.62MB/s]video-2020-04-14.csv.gz: 1MB [00:00,  2.41MB/s]
+INFO:root:Successfully created tables export request kj3kqabknd.
+INFO:root:Successfully created clickstream export request et6wbzh8z0.
+assessment_higher_education_1587018418617.zip:   0%|          | 0/17 [00:00<?, ?MB/s]assessment_higher_education_1587018418617.zip:   6%|▌         | 1/17 [00:00<00:09,  1.75MB/s]assessment_higher_education_1587018418617.zip:  18%|█▊        | 3/17 [00:00<00:06,  2.32MB/s]assessment_higher_education_1587018418617.zip:  41%|████      | 7/17 [00:00<00:03,  3.17MB/s]assessment_higher_education_1587018418617.zip:  65%|██████▍   | 11/17 [00:01<00:01,  4.38MB/s]assessment_higher_education_1587018418617.zip:  82%|████████▏ | 14/17 [00:01<00:00,  5.62MB/s]assessment_higher_education_1587018418617.zip: 18MB [00:01,  7.57MB/s]                        assessment_higher_education_1587018418617.zip: 18MB [00:01, 13.17MB/s]
+access-2020-04-15.csv.gz: 0MB [00:00, ?MB/s]access-2020-04-15.csv.gz: 1MB [00:00,  5.30MB/s]access-2020-04-15.csv.gz: 1MB [00:00,  4.66MB/s]
+video-2020-04-15.csv.gz: 0MB [00:00, ?MB/s]video-2020-04-15.csv.gz: 1MB [00:00,  2.74MB/s]video-2020-04-15.csv.gz: 1MB [00:00,  2.74MB/s]
+INFO:root:Successfully created tables export request x9rz0rgpb6.
+INFO:root:Successfully created clickstream export request rxa08lwvhb.
+assessment_higher_education_1587104666125.zip:   0%|          | 0/17 [00:00<?, ?MB/s]assessment_higher_education_1587104666125.zip:   6%|▌         | 1/17 [00:00<00:08,  1.80MB/s]assessment_higher_education_1587104666125.zip:  18%|█▊        | 3/17 [00:00<00:05,  2.39MB/s]assessment_higher_education_1587104666125.zip:  35%|███▌      | 6/17 [00:00<00:03,  3.23MB/s]assessment_higher_education_1587104666125.zip:  65%|██████▍   | 11/17 [00:01<00:01,  4.47MB/s]assessment_higher_education_1587104666125.zip:  82%|████████▏ | 14/17 [00:01<00:00,  5.77MB/s]assessment_higher_education_1587104666125.zip: 18MB [00:01, 13.64MB/s]                        
+access-2020-04-16.csv.gz: 0MB [00:00, ?MB/s]access-2020-04-16.csv.gz: 1MB [00:00,  7.61MB/s]access-2020-04-16.csv.gz: 1MB [00:00,  6.09MB/s]
+video-2020-04-16.csv.gz: 0MB [00:00, ?MB/s]video-2020-04-16.csv.gz: 1MB [00:00,  2.72MB/s]video-2020-04-16.csv.gz: 1MB [00:00,  2.41MB/s]
+INFO:root:Successfully created tables export request qgo2t11dgs.
+INFO:root:Successfully created clickstream export request bhyll49n5i.
+assessment_higher_education_1587191113112.zip:   0%|          | 0/17 [00:00<?, ?MB/s]assessment_higher_education_1587191113112.zip:   6%|▌         | 1/17 [00:00<00:09,  1.69MB/s]assessment_higher_education_1587191113112.zip:  12%|█▏        | 2/17 [00:00<00:06,  2.18MB/s]assessment_higher_education_1587191113112.zip:  29%|██▉       | 5/17 [00:00<00:04,  2.99MB/s]assessment_higher_education_1587191113112.zip:  53%|█████▎    | 9/17 [00:01<00:01,  4.09MB/s]assessment_higher_education_1587191113112.zip:  76%|███████▋  | 13/17 [00:01<00:00,  5.50MB/s]assessment_higher_education_1587191113112.zip:  94%|█████████▍| 16/17 [00:01<00:00,  7.11MB/s]assessment_higher_education_1587191113112.zip: 18MB [00:01, 13.16MB/s]                        
+access-2020-04-17.csv.gz: 0MB [00:00, ?MB/s]access-2020-04-17.csv.gz: 1MB [00:00,  8.78MB/s]
+video-2020-04-17.csv.gz: 0MB [00:00, ?MB/s]video-2020-04-17.csv.gz: 1MB [00:00,  3.62MB/s]video-2020-04-17.csv.gz: 1MB [00:00,  3.18MB/s]
+INFO:root:Successfully created tables export request kuxtjxknhh.
+INFO:root:Successfully created clickstream export request du5srmpiys.
+assessment_higher_education_1587277321142.zip:   0%|          | 0/17 [00:00<?, ?MB/s]assessment_higher_education_1587277321142.zip:   6%|▌         | 1/17 [00:00<00:09,  1.75MB/s]assessment_higher_education_1587277321142.zip:  18%|█▊        | 3/17 [00:00<00:05,  2.38MB/s]assessment_higher_education_1587277321142.zip:  35%|███▌      | 6/17 [00:00<00:03,  3.23MB/s]assessment_higher_education_1587277321142.zip:  59%|█████▉    | 10/17 [00:00<00:01,  4.40MB/s]assessment_higher_education_1587277321142.zip:  82%|████████▏ | 14/17 [00:01<00:00,  5.89MB/s]assessment_higher_education_1587277321142.zip: 18MB [00:01, 14.21MB/s]                        
+access-2020-04-18.csv.gz: 0MB [00:00, ?MB/s]access-2020-04-18.csv.gz: 1MB [00:00,  8.78MB/s]
+video-2020-04-18.csv.gz: 0MB [00:00, ?MB/s]video-2020-04-18.csv.gz: 1MB [00:00,  3.62MB/s]video-2020-04-18.csv.gz: 1MB [00:00,  3.18MB/s]
+INFO:root:Successfully created tables export request eja3xel9yn.
+INFO:root:Successfully created clickstream export request yalfu7adcv.
+assessment_higher_education_1587363649470.zip:   0%|          | 0/17 [00:00<?, ?MB/s]assessment_higher_education_1587363649470.zip:   6%|▌         | 1/17 [00:00<00:09,  1.75MB/s]assessment_higher_education_1587363649470.zip:  18%|█▊        | 3/17 [00:00<00:05,  2.37MB/s]assessment_higher_education_1587363649470.zip:  35%|███▌      | 6/17 [00:00<00:03,  3.22MB/s]assessment_higher_education_1587363649470.zip:  47%|████▋     | 8/17 [00:00<00:02,  4.30MB/s]assessment_higher_education_1587363649470.zip:  59%|█████▉    | 10/17 [00:01<00:01,  5.62MB/s]assessment_higher_education_1587363649470.zip:  82%|████████▏ | 14/17 [00:01<00:00,  7.20MB/s]assessment_higher_education_1587363649470.zip: 100%|██████████| 17/17 [00:01<00:00,  9.29MB/s]assessment_higher_education_1587363649470.zip: 18MB [00:01, 13.17MB/s]                        
+access-2020-04-19.csv.gz: 0MB [00:00, ?MB/s]access-2020-04-19.csv.gz: 1MB [00:00,  8.77MB/s]
+video-2020-04-19.csv.gz: 0MB [00:00, ?MB/s]video-2020-04-19.csv.gz: 1MB [00:00,  5.14MB/s]video-2020-04-19.csv.gz: 1MB [00:00,  4.67MB/s]
+INFO:root:Successfully created tables export request ljtcqocmbn.
+INFO:root:Successfully created clickstream export request k7vje6ljiw.
+assessment_higher_education_1587450424009.zip:   0%|          | 0/17 [00:00<?, ?MB/s]assessment_higher_education_1587450424009.zip:   6%|▌         | 1/17 [00:25<06:50, 25.65s/MB]assessment_higher_education_1587450424009.zip:  12%|█▏        | 2/17 [00:41<05:42, 22.85s/MB]assessment_higher_education_1587450424009.zip:  18%|█▊        | 3/17 [00:50<04:18, 18.47s/MB]assessment_higher_education_1587450424009.zip:  24%|██▎       | 4/17 [00:56<03:12, 14.80s/MB]assessment_higher_education_1587450424009.zip:  29%|██▉       | 5/17 [00:59<02:13, 11.15s/MB]assessment_higher_education_1587450424009.zip:  35%|███▌      | 6/17 [01:02<01:36,  8.79s/MB]assessment_higher_education_1587450424009.zip:  41%|████      | 7/17 [01:13<01:34,  9.41s/MB]assessment_higher_education_1587450424009.zip:  47%|████▋     | 8/17 [01:40<02:14, 14.91s/MB]assessment_higher_education_1587450424009.zip:  53%|█████▎    | 9/17 [08:19<17:19, 129.99s/MB]ERROR:root:Download failed.
+("Connection broken: error(104, 'Connection reset by peer')", error(104, 'Connection reset by peer'))
+ERROR:root:Download failed with exception:
+("Connection broken: error(104, 'Connection reset by peer')", error(104, 'Connection reset by peer'))
+ERROR:root:Problem when running command. Sorry!
+Traceback (most recent call last):
+  File "/usr/local/lib/python2.7/dist-packages/courseraresearchexports/main.py", line 86, in main
+    return args.func(args)
+  File "/usr/local/lib/python2.7/dist-packages/courseraresearchexports/commands/jobs.py", line 142, in download
+    utils.download(export_request, dest)
+  File "/usr/local/lib/python2.7/dist-packages/courseraresearchexports/exports/utils.py", line 46, in download
+    return [download_url(export_request.download_link, dest)]
+  File "/usr/local/lib/python2.7/dist-packages/courseraresearchexports/exports/utils.py", line 86, in download_url
+    desc=filename):
+  File "/usr/local/lib/python2.7/dist-packages/tqdm/std.py", line 1097, in __iter__
+    for obj in iterable:
+  File "/usr/local/lib/python2.7/dist-packages/requests/models.py", line 667, in generate
+    raise ChunkedEncodingError(e)
+ChunkedEncodingError: ("Connection broken: error(104, 'Connection reset by peer')", error(104, 'Connection reset by peer'))
+assessment_higher_education_1587450424009.zip:  53%|█████▎    | 9/17 [08:51<07:52, 59.09s/MB] 
+access-2020-04-20.csv.gz: 0MB [00:00, ?MB/s]access-2020-04-20.csv.gz: 1MB [00:00,  1.64MB/s]access-2020-04-20.csv.gz: 1MB [00:00,  1.63MB/s]
+video-2020-04-20.csv.gz: 0MB [00:00, ?MB/s]video-2020-04-20.csv.gz: 1MB [00:03,  3.74s/MB]video-2020-04-20.csv.gz: 1MB [00:03,  3.77s/MB]
+Traceback (most recent call last):
+  File "/home/learning-tracker/automater/data_pipeline.py", line 110, in <module>
+    process_files()
+  File "/home/learning-tracker/automater/data_pipeline.py", line 94, in process_files
+    with ZipFile(file, 'r') as zipObj:
+  File "/usr/lib/python3.6/zipfile.py", line 1131, in __init__
+    self._RealGetContents()
+  File "/usr/lib/python3.6/zipfile.py", line 1198, in _RealGetContents
+    raise BadZipFile("File is not a zip file")
+zipfile.BadZipFile: File is not a zip file
+INFO:root:Successfully created tables export request hkppfbsezz.
+INFO:root:Successfully created clickstream export request va15ncq9uq.
+assessment_higher_education_1587536700129.zip:   0%|          | 0/17 [00:00<?, ?MB/s]assessment_higher_education_1587536700129.zip:   6%|▌         | 1/17 [00:00<00:09,  1.76MB/s]assessment_higher_education_1587536700129.zip:  18%|█▊        | 3/17 [00:00<00:05,  2.35MB/s]assessment_higher_education_1587536700129.zip:  35%|███▌      | 6/17 [00:00<00:03,  3.25MB/s]assessment_higher_education_1587536700129.zip:  59%|█████▉    | 10/17 [00:00<00:01,  4.44MB/s]assessment_higher_education_1587536700129.zip:  76%|███████▋  | 13/17 [00:01<00:00,  5.79MB/s]assessment_higher_education_1587536700129.zip: 100%|██████████| 17/17 [00:01<00:00,  7.64MB/s]assessment_higher_education_1587536700129.zip: 18MB [00:01, 13.64MB/s]                        
+access-2020-04-21.csv.gz: 0MB [00:00, ?MB/s]access-2020-04-21.csv.gz: 1MB [00:00,  5.54MB/s]access-2020-04-21.csv.gz: 1MB [00:00,  4.66MB/s]
+video-2020-04-21.csv.gz: 0MB [00:00, ?MB/s]video-2020-04-21.csv.gz: 1MB [00:00,  2.74MB/s]video-2020-04-21.csv.gz: 1MB [00:00,  2.41MB/s]
+Traceback (most recent call last):
+  File "/home/learning-tracker/automater/data_pipeline.py", line 110, in <module>
+    process_files()
+  File "/home/learning-tracker/automater/data_pipeline.py", line 94, in process_files
+    with ZipFile(file, 'r') as zipObj:
+  File "/usr/lib/python3.6/zipfile.py", line 1131, in __init__
+    self._RealGetContents()
+  File "/usr/lib/python3.6/zipfile.py", line 1198, in _RealGetContents
+    raise BadZipFile("File is not a zip file")
+zipfile.BadZipFile: File is not a zip file
+INFO:root:Successfully created tables export request uoa3zmejd3.
+INFO:root:Successfully created clickstream export request zagip4soaa.
+INFO:root:Successfully created tables export request chnfsvc6sv.
+INFO:root:Successfully created clickstream export request gdqgogvymp.
+assessment_higher_education_1587709574019.zip:   0%|          | 0/17 [00:00<?, ?MB/s]assessment_higher_education_1587709574019.zip:   6%|▌         | 1/17 [00:00<00:08,  1.80MB/s]assessment_higher_education_1587709574019.zip:  18%|█▊        | 3/17 [00:00<00:05,  2.40MB/s]assessment_higher_education_1587709574019.zip:  41%|████      | 7/17 [00:00<00:03,  3.32MB/s]assessment_higher_education_1587709574019.zip:  65%|██████▍   | 11/17 [00:01<00:01,  4.52MB/s]assessment_higher_education_1587709574019.zip:  88%|████████▊ | 15/17 [00:01<00:00,  6.16MB/s]assessment_higher_education_1587709574019.zip: 18MB [00:01, 14.78MB/s]                        
+access-2020-04-23.csv.gz: 0MB [00:00, ?MB/s]access-2020-04-23.csv.gz: 1MB [00:00,  5.31MB/s]access-2020-04-23.csv.gz: 1MB [00:00,  4.66MB/s]
+video-2020-04-23.csv.gz: 0MB [00:00, ?MB/s]video-2020-04-23.csv.gz: 1MB [00:00,  2.61MB/s]video-2020-04-23.csv.gz: 1MB [00:00,  2.40MB/s]
+Traceback (most recent call last):
+  File "/home/learning-tracker/automater/data_pipeline.py", line 110, in <module>
+    process_files()
+  File "/home/learning-tracker/automater/data_pipeline.py", line 94, in process_files
+    with ZipFile(file, 'r') as zipObj:
+  File "/usr/lib/python3.6/zipfile.py", line 1131, in __init__
+    self._RealGetContents()
+  File "/usr/lib/python3.6/zipfile.py", line 1198, in _RealGetContents
+    raise BadZipFile("File is not a zip file")
+zipfile.BadZipFile: File is not a zip file
+INFO:root:Successfully created tables export request qqgfh6ng4o.
+INFO:root:Successfully created clickstream export request wstqgefhof.
+assessment_higher_education_1587796077187.zip:   0%|          | 0/17 [00:00<?, ?MB/s]assessment_higher_education_1587796077187.zip:   6%|▌         | 1/17 [00:00<00:08,  1.84MB/s]assessment_higher_education_1587796077187.zip:  24%|██▎       | 4/17 [00:00<00:05,  2.51MB/s]assessment_higher_education_1587796077187.zip:  47%|████▋     | 8/17 [00:00<00:02,  3.49MB/s]assessment_higher_education_1587796077187.zip:  71%|███████   | 12/17 [00:00<00:01,  4.68MB/s]assessment_higher_education_1587796077187.zip: 100%|██████████| 17/17 [00:01<00:00,  6.41MB/s]assessment_higher_education_1587796077187.zip: 18MB [00:01, 14.79MB/s]                        
+access-2020-04-24.csv.gz: 0MB [00:00, ?MB/s]access-2020-04-24.csv.gz: 1MB [00:00,  8.76MB/s]
+video-2020-04-24.csv.gz: 0MB [00:00, ?MB/s]video-2020-04-24.csv.gz: 1MB [00:00,  2.71MB/s]video-2020-04-24.csv.gz: 1MB [00:00,  2.41MB/s]
+Traceback (most recent call last):
+  File "/home/learning-tracker/automater/data_pipeline.py", line 110, in <module>
+    process_files()
+  File "/home/learning-tracker/automater/data_pipeline.py", line 94, in process_files
+    with ZipFile(file, 'r') as zipObj:
+  File "/usr/lib/python3.6/zipfile.py", line 1131, in __init__
+    self._RealGetContents()
+  File "/usr/lib/python3.6/zipfile.py", line 1198, in _RealGetContents
+    raise BadZipFile("File is not a zip file")
+zipfile.BadZipFile: File is not a zip file
+INFO:root:Successfully created tables export request 6hwdmhlhtf.
+INFO:root:Successfully created clickstream export request tcinwavebz.
+assessment_higher_education_1587882281880.zip:   0%|          | 0/18 [00:00<?, ?MB/s]assessment_higher_education_1587882281880.zip:   6%|▌         | 1/18 [00:00<00:09,  1.72MB/s]assessment_higher_education_1587882281880.zip:  17%|█▋        | 3/18 [00:00<00:06,  2.37MB/s]assessment_higher_education_1587882281880.zip:  28%|██▊       | 5/18 [00:00<00:04,  3.23MB/s]assessment_higher_education_1587882281880.zip:  44%|████▍     | 8/18 [00:00<00:02,  4.35MB/s]assessment_higher_education_1587882281880.zip:  61%|██████    | 11/18 [00:01<00:01,  5.71MB/s]assessment_higher_education_1587882281880.zip:  83%|████████▎ | 15/18 [00:01<00:00,  7.65MB/s]assessment_higher_education_1587882281880.zip: 19MB [00:01, 14.99MB/s]                        
+access-2020-04-25.csv.gz: 0MB [00:00, ?MB/s]access-2020-04-25.csv.gz: 1MB [00:00,  8.77MB/s]
+video-2020-04-25.csv.gz: 0MB [00:00, ?MB/s]video-2020-04-25.csv.gz: 1MB [00:00,  2.61MB/s]video-2020-04-25.csv.gz: 1MB [00:00,  2.41MB/s]
+Traceback (most recent call last):
+  File "/home/learning-tracker/automater/data_pipeline.py", line 110, in <module>
+    process_files()
+  File "/home/learning-tracker/automater/data_pipeline.py", line 94, in process_files
+    with ZipFile(file, 'r') as zipObj:
+  File "/usr/lib/python3.6/zipfile.py", line 1131, in __init__
+    self._RealGetContents()
+  File "/usr/lib/python3.6/zipfile.py", line 1198, in _RealGetContents
+    raise BadZipFile("File is not a zip file")
+zipfile.BadZipFile: File is not a zip file
+INFO:root:Successfully created tables export request mlafxctmcv.
+INFO:root:Successfully created clickstream export request 41kfqprl10.
+assessment_higher_education_1587968789295.zip:   0%|          | 0/18 [00:00<?, ?MB/s]assessment_higher_education_1587968789295.zip:   6%|▌         | 1/18 [00:00<00:09,  1.79MB/s]assessment_higher_education_1587968789295.zip:  17%|█▋        | 3/18 [00:00<00:06,  2.39MB/s]assessment_higher_education_1587968789295.zip:  33%|███▎      | 6/18 [00:00<00:03,  3.21MB/s]assessment_higher_education_1587968789295.zip:  50%|█████     | 9/18 [00:01<00:02,  4.38MB/s]assessment_higher_education_1587968789295.zip:  67%|██████▋   | 12/18 [00:01<00:01,  5.61MB/s]assessment_higher_education_1587968789295.zip:  89%|████████▉ | 16/18 [00:01<00:00,  7.54MB/s]assessment_higher_education_1587968789295.zip: 19MB [00:01, 13.41MB/s]                        
+access-2020-04-26.csv.gz: 0MB [00:00, ?MB/s]access-2020-04-26.csv.gz: 1MB [00:00,  8.76MB/s]
+video-2020-04-26.csv.gz: 0MB [00:00, ?MB/s]video-2020-04-26.csv.gz: 1MB [00:00,  3.45MB/s]video-2020-04-26.csv.gz: 1MB [00:00,  3.18MB/s]
+Traceback (most recent call last):
+  File "/home/learning-tracker/automater/data_pipeline.py", line 110, in <module>
+    process_files()
+  File "/home/learning-tracker/automater/data_pipeline.py", line 94, in process_files
+    with ZipFile(file, 'r') as zipObj:
+  File "/usr/lib/python3.6/zipfile.py", line 1131, in __init__
+    self._RealGetContents()
+  File "/usr/lib/python3.6/zipfile.py", line 1198, in _RealGetContents
+    raise BadZipFile("File is not a zip file")
+zipfile.BadZipFile: File is not a zip file
+INFO:root:Successfully created tables export request xrcsr4plnd.
+INFO:root:Successfully created clickstream export request bhrg305egm.
+assessment_higher_education_1588055345486.zip:   0%|          | 0/18 [00:00<?, ?MB/s]assessment_higher_education_1588055345486.zip:   6%|▌         | 1/18 [00:00<00:09,  1.74MB/s]assessment_higher_education_1588055345486.zip:  11%|█         | 2/18 [00:00<00:07,  2.18MB/s]assessment_higher_education_1588055345486.zip:  33%|███▎      | 6/18 [00:00<00:03,  3.02MB/s]assessment_higher_education_1588055345486.zip:  50%|█████     | 9/18 [00:01<00:02,  4.06MB/s]assessment_higher_education_1588055345486.zip:  72%|███████▏  | 13/18 [00:01<00:00,  5.56MB/s]assessment_higher_education_1588055345486.zip:  94%|█████████▍| 17/18 [00:01<00:00,  7.16MB/s]assessment_higher_education_1588055345486.zip: 19MB [00:01, 13.89MB/s]                        
+access-2020-04-27.csv.gz: 0MB [00:00, ?MB/s]access-2020-04-27.csv.gz: 1MB [00:00,  5.30MB/s]access-2020-04-27.csv.gz: 1MB [00:00,  4.67MB/s]
+video-2020-04-27.csv.gz: 0MB [00:00, ?MB/s]video-2020-04-27.csv.gz: 1MB [00:00,  2.61MB/s]video-2020-04-27.csv.gz: 1MB [00:00,  2.41MB/s]
+Traceback (most recent call last):
+  File "/home/learning-tracker/automater/data_pipeline.py", line 110, in <module>
+    process_files()
+  File "/home/learning-tracker/automater/data_pipeline.py", line 94, in process_files
+    with ZipFile(file, 'r') as zipObj:
+  File "/usr/lib/python3.6/zipfile.py", line 1131, in __init__
+    self._RealGetContents()
+  File "/usr/lib/python3.6/zipfile.py", line 1198, in _RealGetContents
+    raise BadZipFile("File is not a zip file")
+zipfile.BadZipFile: File is not a zip file
+INFO:root:Successfully created tables export request 7445jqlwxn.
+INFO:root:Successfully created clickstream export request hmelpxq6vy.
+assessment_higher_education_1588141747374.zip:   0%|          | 0/18 [00:00<?, ?MB/s]assessment_higher_education_1588141747374.zip:   6%|▌         | 1/18 [00:00<00:09,  1.74MB/s]assessment_higher_education_1588141747374.zip:  17%|█▋        | 3/18 [00:00<00:06,  2.39MB/s]assessment_higher_education_1588141747374.zip:  33%|███▎      | 6/18 [00:00<00:03,  3.27MB/s]assessment_higher_education_1588141747374.zip:  50%|█████     | 9/18 [00:00<00:02,  4.38MB/s]assessment_higher_education_1588141747374.zip:  67%|██████▋   | 12/18 [00:01<00:01,  5.88MB/s]assessment_higher_education_1588141747374.zip:  89%|████████▉ | 16/18 [00:01<00:00,  7.72MB/s]assessment_higher_education_1588141747374.zip: 19MB [00:01, 14.42MB/s]                        
+access-2020-04-28.csv.gz: 0MB [00:00, ?MB/s]access-2020-04-28.csv.gz: 1MB [00:00,  8.81MB/s]
+video-2020-04-28.csv.gz: 0MB [00:00, ?MB/s]video-2020-04-28.csv.gz: 1MB [00:00,  3.61MB/s]video-2020-04-28.csv.gz: 1MB [00:00,  3.18MB/s]
+Traceback (most recent call last):
+  File "/home/learning-tracker/automater/data_pipeline.py", line 110, in <module>
+    process_files()
+  File "/home/learning-tracker/automater/data_pipeline.py", line 94, in process_files
+    with ZipFile(file, 'r') as zipObj:
+  File "/usr/lib/python3.6/zipfile.py", line 1131, in __init__
+    self._RealGetContents()
+  File "/usr/lib/python3.6/zipfile.py", line 1198, in _RealGetContents
+    raise BadZipFile("File is not a zip file")
+zipfile.BadZipFile: File is not a zip file
+INFO:root:Successfully created tables export request i29zudohcu.
+INFO:root:Successfully created clickstream export request zoocfxp3x8.
+assessment_higher_education_1588227843518.zip:   0%|          | 0/18 [00:00<?, ?MB/s]assessment_higher_education_1588227843518.zip:   6%|▌         | 1/18 [00:00<00:09,  1.74MB/s]assessment_higher_education_1588227843518.zip:  17%|█▋        | 3/18 [00:00<00:06,  2.32MB/s]assessment_higher_education_1588227843518.zip:  33%|███▎      | 6/18 [00:00<00:03,  3.21MB/s]assessment_higher_education_1588227843518.zip:  56%|█████▌    | 10/18 [00:00<00:01,  4.39MB/s]assessment_higher_education_1588227843518.zip:  72%|███████▏  | 13/18 [00:01<00:00,  5.74MB/s]assessment_higher_education_1588227843518.zip:  94%|█████████▍| 17/18 [00:01<00:00,  7.71MB/s]assessment_higher_education_1588227843518.zip: 19MB [00:01, 13.90MB/s]                        
+access-2020-04-29.csv.gz: 0MB [00:00, ?MB/s]access-2020-04-29.csv.gz: 1MB [00:00, 517.56MB/s]
+video-2020-04-29.csv.gz: 0MB [00:00, ?MB/s]video-2020-04-29.csv.gz: 1MB [00:00,  8.77MB/s]
+INFO:root:Successfully created tables export request ki6u0ym6it.
+INFO:root:Successfully created clickstream export request qd21xhjcwg.
+assessment_higher_education_1588314292103.zip:   0%|          | 0/18 [00:00<?, ?MB/s]assessment_higher_education_1588314292103.zip:   6%|▌         | 1/18 [00:00<00:09,  1.74MB/s]assessment_higher_education_1588314292103.zip:  22%|██▏       | 4/18 [00:00<00:05,  2.38MB/s]assessment_higher_education_1588314292103.zip:  44%|████▍     | 8/18 [00:00<00:03,  3.24MB/s]assessment_higher_education_1588314292103.zip:  67%|██████▋   | 12/18 [00:01<00:01,  4.47MB/s]assessment_higher_education_1588314292103.zip:  83%|████████▎ | 15/18 [00:01<00:00,  6.01MB/s]assessment_higher_education_1588314292103.zip: 100%|██████████| 18/18 [00:01<00:00,  7.43MB/s]assessment_higher_education_1588314292103.zip: 19MB [00:01, 13.90MB/s]                        
+ERROR:root:Download failed.
+Clickstream download links not found. This typically means no data was available for the dates in the specified interval: [u'2020-04-30', u'2020-04-30']
+ERROR:root:Download failed with exception:
+Clickstream download links not found. This typically means no data was available for the dates in the specified interval: [u'2020-04-30', u'2020-04-30']
+ERROR:root:Problem when running command. Sorry!
+Traceback (most recent call last):
+  File "/usr/local/lib/python2.7/dist-packages/courseraresearchexports/main.py", line 86, in main
+    return args.func(args)
+  File "/usr/local/lib/python2.7/dist-packages/courseraresearchexports/commands/jobs.py", line 142, in download
+    utils.download(export_request, dest)
+  File "/usr/local/lib/python2.7/dist-packages/courseraresearchexports/exports/utils.py", line 58, in download
+    .format(interval=export_request.interval))
+ValueError: Clickstream download links not found. This typically means no data was available for the dates in the specified interval: [u'2020-04-30', u'2020-04-30']
+INFO:root:Successfully created tables export request n93an2panz.
+INFO:root:Successfully created clickstream export request vnunre9ncb.
+assessment_higher_education_1588400805223.zip:   0%|          | 0/18 [00:00<?, ?MB/s]assessment_higher_education_1588400805223.zip:   6%|▌         | 1/18 [00:00<00:09,  1.75MB/s]assessment_higher_education_1588400805223.zip:  17%|█▋        | 3/18 [00:00<00:06,  2.38MB/s]assessment_higher_education_1588400805223.zip:  39%|███▉      | 7/18 [00:00<00:03,  3.26MB/s]assessment_higher_education_1588400805223.zip:  56%|█████▌    | 10/18 [00:01<00:01,  4.38MB/s]assessment_higher_education_1588400805223.zip:  72%|███████▏  | 13/18 [00:01<00:00,  5.88MB/s]assessment_higher_education_1588400805223.zip:  89%|████████▉ | 16/18 [00:01<00:00,  7.44MB/s]assessment_higher_education_1588400805223.zip: 19MB [00:01, 13.86MB/s]                        
+access-2020-05-01.csv.gz: 0MB [00:00, ?MB/s]access-2020-05-01.csv.gz: 1MB [00:00,  8.75MB/s]
+video-2020-05-01.csv.gz: 0MB [00:00, ?MB/s]video-2020-05-01.csv.gz: 1MB [00:00,  2.62MB/s]video-2020-05-01.csv.gz: 1MB [00:00,  2.41MB/s]
+INFO:root:Successfully created tables export request khpiscvop2.
+INFO:root:Successfully created clickstream export request iyey5q6isb.
+assessment_higher_education_1588486844028.zip:   0%|          | 0/18 [00:00<?, ?MB/s]assessment_higher_education_1588486844028.zip:   6%|▌         | 1/18 [00:00<00:09,  1.74MB/s]assessment_higher_education_1588486844028.zip:  17%|█▋        | 3/18 [00:00<00:06,  2.40MB/s]assessment_higher_education_1588486844028.zip:  33%|███▎      | 6/18 [00:00<00:03,  3.28MB/s]assessment_higher_education_1588486844028.zip:  50%|█████     | 9/18 [00:00<00:02,  4.47MB/s]assessment_higher_education_1588486844028.zip:  67%|██████▋   | 12/18 [00:01<00:01,  5.86MB/s]assessment_higher_education_1588486844028.zip:  89%|████████▉ | 16/18 [00:01<00:00,  7.86MB/s]assessment_higher_education_1588486844028.zip: 19MB [00:01, 14.98MB/s]                        
+access-2020-05-02.csv.gz: 0MB [00:00, ?MB/s]access-2020-05-02.csv.gz: 1MB [00:00,  8.75MB/s]
+video-2020-05-02.csv.gz: 0MB [00:00, ?MB/s]video-2020-05-02.csv.gz: 1MB [00:00,  2.60MB/s]video-2020-05-02.csv.gz: 1MB [00:00,  2.41MB/s]
+INFO:root:Successfully created tables export request 8v2n8iajnj.
+INFO:root:Successfully created clickstream export request zcgenu14uj.
+assessment_higher_education_1588573922050.zip:   0%|          | 0/18 [00:00<?, ?MB/s]assessment_higher_education_1588573922050.zip:   6%|▌         | 1/18 [00:00<00:09,  1.75MB/s]assessment_higher_education_1588573922050.zip:  17%|█▋        | 3/18 [00:00<00:06,  2.40MB/s]assessment_higher_education_1588573922050.zip:  39%|███▉      | 7/18 [00:00<00:03,  3.27MB/s]assessment_higher_education_1588573922050.zip:  61%|██████    | 11/18 [00:00<00:01,  4.51MB/s]assessment_higher_education_1588573922050.zip:  78%|███████▊  | 14/18 [00:01<00:00,  5.94MB/s]assessment_higher_education_1588573922050.zip: 100%|██████████| 18/18 [00:01<00:00,  7.77MB/s]assessment_higher_education_1588573922050.zip: 19MB [00:01, 14.98MB/s]                        
+access-2020-05-03.csv.gz: 0MB [00:00, ?MB/s]access-2020-05-03.csv.gz: 1MB [00:00,  5.37MB/s]access-2020-05-03.csv.gz: 1MB [00:00,  4.66MB/s]
+video-2020-05-03.csv.gz: 0MB [00:00, ?MB/s]video-2020-05-03.csv.gz: 1MB [00:00,  2.61MB/s]video-2020-05-03.csv.gz: 1MB [00:00,  2.41MB/s]
+INFO:root:Successfully created tables export request q62emzlwaz.
+INFO:root:Successfully created clickstream export request pxjghi25vo.
+assessment_higher_education_1588659498791.zip:   0%|          | 0/18 [00:00<?, ?MB/s]assessment_higher_education_1588659498791.zip:   6%|▌         | 1/18 [00:00<00:09,  1.82MB/s]assessment_higher_education_1588659498791.zip:  22%|██▏       | 4/18 [00:00<00:05,  2.48MB/s]assessment_higher_education_1588659498791.zip:  50%|█████     | 9/18 [00:00<00:02,  3.44MB/s]assessment_higher_education_1588659498791.zip:  67%|██████▋   | 12/18 [00:01<00:01,  4.61MB/s]assessment_higher_education_1588659498791.zip:  89%|████████▉ | 16/18 [00:01<00:00,  6.27MB/s]assessment_higher_education_1588659498791.zip: 19MB [00:01, 15.62MB/s]                        
+INFO:root:Successfully created clickstream export request zv1ufcotun.
+INFO:root:Successfully created tables export request t7xnvedbax.
+INFO:root:Successfully created clickstream export request 94fzxzu40d.
+assessment_higher_education_1588745999797.zip:   0%|          | 0/18 [00:00<?, ?MB/s]assessment_higher_education_1588745999797.zip:   6%|▌         | 1/18 [00:00<00:09,  1.82MB/s]assessment_higher_education_1588745999797.zip:  22%|██▏       | 4/18 [00:00<00:05,  2.48MB/s]assessment_higher_education_1588745999797.zip:  50%|█████     | 9/18 [00:00<00:02,  3.44MB/s]assessment_higher_education_1588745999797.zip:  67%|██████▋   | 12/18 [00:01<00:01,  4.62MB/s]assessment_higher_education_1588745999797.zip:  89%|████████▉ | 16/18 [00:01<00:00,  6.28MB/s]assessment_higher_education_1588745999797.zip: 19MB [00:01, 15.60MB/s]                        
+access-2020-05-05.csv.gz: 0MB [00:00, ?MB/s]access-2020-05-05.csv.gz: 1MB [00:00,  5.31MB/s]access-2020-05-05.csv.gz: 1MB [00:00,  4.66MB/s]
+video-2020-05-05.csv.gz: 0MB [00:00, ?MB/s]video-2020-05-05.csv.gz: 1MB [00:00,  2.61MB/s]video-2020-05-05.csv.gz: 1MB [00:00,  2.41MB/s]
+INFO:root:Successfully created tables export request ocazkuyos7.
+INFO:root:Successfully created clickstream export request k6cfasjgfg.
+assessment_higher_education_1588833200719.zip:   0%|          | 0/18 [00:00<?, ?MB/s]assessment_higher_education_1588833200719.zip:   6%|▌         | 1/18 [00:00<00:09,  1.83MB/s]assessment_higher_education_1588833200719.zip:  22%|██▏       | 4/18 [00:00<00:05,  2.49MB/s]assessment_higher_education_1588833200719.zip:  50%|█████     | 9/18 [00:00<00:02,  3.43MB/s]assessment_higher_education_1588833200719.zip:  72%|███████▏  | 13/18 [00:01<00:01,  4.72MB/s]assessment_higher_education_1588833200719.zip:  94%|█████████▍| 17/18 [00:01<00:00,  6.21MB/s]assessment_higher_education_1588833200719.zip: 19MB [00:01, 15.59MB/s]                        
+access-2020-05-06.csv.gz: 0MB [00:00, ?MB/s]access-2020-05-06.csv.gz: 1MB [00:00,  5.14MB/s]access-2020-05-06.csv.gz: 1MB [00:00,  4.63MB/s]
+video-2020-05-06.csv.gz: 0MB [00:00, ?MB/s]video-2020-05-06.csv.gz: 1MB [00:00,  2.46MB/s]video-2020-05-06.csv.gz: 1MB [00:00,  2.40MB/s]
+INFO:root:Successfully created tables export request tsoumkfa2t.
+INFO:root:Successfully created clickstream export request 1j86ufztzr.
+assessment_higher_education_1588918911800.zip:   0%|          | 0/19 [00:00<?, ?MB/s]assessment_higher_education_1588918911800.zip:   5%|▌         | 1/19 [00:00<00:10,  1.76MB/s]assessment_higher_education_1588918911800.zip:  16%|█▌        | 3/19 [00:00<00:06,  2.40MB/s]assessment_higher_education_1588918911800.zip:  32%|███▏      | 6/19 [00:00<00:03,  3.31MB/s]assessment_higher_education_1588918911800.zip:  47%|████▋     | 9/19 [00:00<00:02,  4.44MB/s]assessment_higher_education_1588918911800.zip:  63%|██████▎   | 12/19 [00:01<00:01,  5.95MB/s]assessment_higher_education_1588918911800.zip:  84%|████████▍ | 16/19 [00:01<00:00,  7.82MB/s]assessment_higher_education_1588918911800.zip: 20MB [00:01, 15.18MB/s]                        
+access-2020-05-07.csv.gz: 0MB [00:00, ?MB/s]access-2020-05-07.csv.gz: 1MB [00:00,  5.52MB/s]access-2020-05-07.csv.gz: 1MB [00:00,  4.67MB/s]
+video-2020-05-07.csv.gz: 0MB [00:00, ?MB/s]video-2020-05-07.csv.gz: 1MB [00:00,  2.63MB/s]video-2020-05-07.csv.gz: 1MB [00:00,  2.41MB/s]
+INFO:root:Successfully created tables export request 3dcjjxzsx8.
+INFO:root:Successfully created clickstream export request 3thmkhkiv2.
+assessment_higher_education_1589005687637.zip:   0%|          | 0/19 [00:00<?, ?MB/s]assessment_higher_education_1589005687637.zip:   5%|▌         | 1/19 [00:00<00:10,  1.73MB/s]assessment_higher_education_1589005687637.zip:  16%|█▌        | 3/19 [00:00<00:06,  2.35MB/s]assessment_higher_education_1589005687637.zip:  37%|███▋      | 7/19 [00:00<00:03,  3.24MB/s]assessment_higher_education_1589005687637.zip:  53%|█████▎    | 10/19 [00:00<00:02,  4.41MB/s]assessment_higher_education_1589005687637.zip:  74%|███████▎  | 14/19 [00:01<00:00,  5.92MB/s]assessment_higher_education_1589005687637.zip:  89%|████████▉ | 17/19 [00:01<00:00,  7.58MB/s]assessment_higher_education_1589005687637.zip: 20MB [00:01, 15.16MB/s]                        
+access-2020-05-08.csv.gz: 0MB [00:00, ?MB/s]access-2020-05-08.csv.gz: 1MB [00:00,  5.53MB/s]access-2020-05-08.csv.gz: 1MB [00:00,  4.66MB/s]
+video-2020-05-08.csv.gz: 0MB [00:00, ?MB/s]video-2020-05-08.csv.gz: 1MB [00:00,  3.64MB/s]video-2020-05-08.csv.gz: 1MB [00:00,  3.18MB/s]
+INFO:root:Successfully created tables export request pcrbsfbbzn.
+INFO:root:Successfully created clickstream export request copq9kwvfi.
+assessment_higher_education_1589091958175.zip:   0%|          | 0/19 [00:00<?, ?MB/s]assessment_higher_education_1589091958175.zip:   5%|▌         | 1/19 [00:00<00:09,  1.82MB/s]assessment_higher_education_1589091958175.zip:  16%|█▌        | 3/19 [00:00<00:06,  2.42MB/s]assessment_higher_education_1589091958175.zip:  37%|███▋      | 7/19 [00:00<00:03,  3.35MB/s]assessment_higher_education_1589091958175.zip:  53%|█████▎    | 10/19 [00:01<00:02,  4.48MB/s]assessment_higher_education_1589091958175.zip:  74%|███████▎  | 14/19 [00:01<00:00,  6.11MB/s]assessment_higher_education_1589091958175.zip:  89%|████████▉ | 17/19 [00:01<00:00,  7.86MB/s]assessment_higher_education_1589091958175.zip: 20MB [00:01, 14.63MB/s]                        
+access-2020-05-09.csv.gz: 0MB [00:00, ?MB/s]access-2020-05-09.csv.gz: 1MB [00:00,  8.69MB/s]
+video-2020-05-09.csv.gz: 0MB [00:00, ?MB/s]video-2020-05-09.csv.gz: 1MB [00:00,  3.49MB/s]video-2020-05-09.csv.gz: 1MB [00:00,  3.18MB/s]
+INFO:root:Successfully created tables export request qmjfkn2qx5.
+INFO:root:Successfully created clickstream export request 5ws7xokywo.
+assessment_higher_education_1589178445473.zip:   0%|          | 0/19 [00:00<?, ?MB/s]assessment_higher_education_1589178445473.zip:   5%|▌         | 1/19 [00:00<00:10,  1.74MB/s]assessment_higher_education_1589178445473.zip:  16%|█▌        | 3/19 [00:00<00:06,  2.33MB/s]assessment_higher_education_1589178445473.zip:  37%|███▋      | 7/19 [00:00<00:03,  3.24MB/s]assessment_higher_education_1589178445473.zip:  53%|█████▎    | 10/19 [00:01<00:02,  4.27MB/s]assessment_higher_education_1589178445473.zip:  74%|███████▎  | 14/19 [00:01<00:00,  5.82MB/s]assessment_higher_education_1589178445473.zip:  95%|█████████▍| 18/19 [00:01<00:00,  7.44MB/s]assessment_higher_education_1589178445473.zip: 20MB [00:01, 14.59MB/s]                        
+access-2020-05-10.csv.gz: 0MB [00:00, ?MB/s]access-2020-05-10.csv.gz: 1MB [00:00,  9.78MB/s]access-2020-05-10.csv.gz: 1MB [00:00,  8.77MB/s]
+video-2020-05-10.csv.gz: 0MB [00:00, ?MB/s]video-2020-05-10.csv.gz: 1MB [00:00,  2.70MB/s]video-2020-05-10.csv.gz: 1MB [00:00,  2.41MB/s]
+INFO:root:Successfully created tables export request ogieun3iut.
+INFO:root:Successfully created clickstream export request b1vauc3qro.
+assessment_higher_education_1589264834287.zip:   0%|          | 0/19 [00:00<?, ?MB/s]assessment_higher_education_1589264834287.zip:   5%|▌         | 1/19 [00:00<00:09,  1.82MB/s]assessment_higher_education_1589264834287.zip:  16%|█▌        | 3/19 [00:00<00:06,  2.46MB/s]assessment_higher_education_1589264834287.zip:  32%|███▏      | 6/19 [00:00<00:03,  3.37MB/s]assessment_higher_education_1589264834287.zip:  53%|█████▎    | 10/19 [00:00<00:01,  4.58MB/s]assessment_higher_education_1589264834287.zip:  74%|███████▎  | 14/19 [00:01<00:00,  6.13MB/s]assessment_higher_education_1589264834287.zip:  95%|█████████▍| 18/19 [00:01<00:00,  8.21MB/s]assessment_higher_education_1589264834287.zip: 20MB [00:01, 15.18MB/s]                        
+access-2020-05-11.csv.gz: 0MB [00:00, ?MB/s]access-2020-05-11.csv.gz: 1MB [00:00,  8.76MB/s]
+video-2020-05-11.csv.gz: 0MB [00:00, ?MB/s]video-2020-05-11.csv.gz: 1MB [00:00,  3.61MB/s]video-2020-05-11.csv.gz: 1MB [00:00,  3.18MB/s]
+INFO:root:Successfully created tables export request 81w2jrnnln.
+INFO:root:Successfully created clickstream export request eqpvpp2txm.
+assessment_higher_education_1589350872288.zip:   0%|          | 0/19 [00:00<?, ?MB/s]assessment_higher_education_1589350872288.zip:   5%|▌         | 1/19 [00:00<00:09,  1.81MB/s]assessment_higher_education_1589350872288.zip:  16%|█▌        | 3/19 [00:00<00:06,  2.41MB/s]assessment_higher_education_1589350872288.zip:  37%|███▋      | 7/19 [00:00<00:03,  3.28MB/s]assessment_higher_education_1589350872288.zip:  58%|█████▊    | 11/19 [00:01<00:01,  4.41MB/s]assessment_higher_education_1589350872288.zip:  79%|███████▉  | 15/19 [00:01<00:00,  5.90MB/s]assessment_higher_education_1589350872288.zip:  95%|█████████▍| 18/19 [00:01<00:00,  7.56MB/s]assessment_higher_education_1589350872288.zip: 20MB [00:01, 13.60MB/s]                        
+access-2020-05-12.csv.gz: 0MB [00:00, ?MB/s]access-2020-05-12.csv.gz: 1MB [00:00,  8.77MB/s]
+video-2020-05-12.csv.gz: 0MB [00:00, ?MB/s]video-2020-05-12.csv.gz: 1MB [00:00,  3.63MB/s]video-2020-05-12.csv.gz: 1MB [00:00,  3.18MB/s]
+INFO:root:Successfully created tables export request bqyka450sc.
+INFO:root:Successfully created clickstream export request dqluolmkhq.
+assessment_higher_education_1589437693914.zip:   0%|          | 0/19 [00:00<?, ?MB/s]assessment_higher_education_1589437693914.zip:   5%|▌         | 1/19 [00:00<00:10,  1.75MB/s]assessment_higher_education_1589437693914.zip:  16%|█▌        | 3/19 [00:00<00:06,  2.40MB/s]assessment_higher_education_1589437693914.zip:  32%|███▏      | 6/19 [00:00<00:03,  3.28MB/s]assessment_higher_education_1589437693914.zip:  47%|████▋     | 9/19 [00:00<00:02,  4.40MB/s]assessment_higher_education_1589437693914.zip:  68%|██████▊   | 13/19 [00:01<00:01,  5.98MB/s]assessment_higher_education_1589437693914.zip:  84%|████████▍ | 16/19 [00:01<00:00,  7.70MB/s]assessment_higher_education_1589437693914.zip: 20MB [00:01, 10.16MB/s]                        assessment_higher_education_1589437693914.zip: 20MB [00:01, 15.16MB/s]
+access-2020-05-13.csv.gz: 0MB [00:00, ?MB/s]access-2020-05-13.csv.gz: 1MB [00:00,  5.30MB/s]access-2020-05-13.csv.gz: 1MB [00:00,  4.66MB/s]
+video-2020-05-13.csv.gz: 0MB [00:00, ?MB/s]video-2020-05-13.csv.gz: 1MB [00:00,  2.71MB/s]video-2020-05-13.csv.gz: 1MB [00:00,  2.41MB/s]
+INFO:root:Successfully created tables export request ttt3dqqjvw.
+INFO:root:Successfully created clickstream export request brrklmhykg.
+assessment_higher_education_1589523927255.zip:   0%|          | 0/19 [00:00<?, ?MB/s]assessment_higher_education_1589523927255.zip:   5%|▌         | 1/19 [00:00<00:10,  1.74MB/s]assessment_higher_education_1589523927255.zip:  16%|█▌        | 3/19 [00:00<00:06,  2.40MB/s]assessment_higher_education_1589523927255.zip:  32%|███▏      | 6/19 [00:00<00:03,  3.28MB/s]assessment_higher_education_1589523927255.zip:  47%|████▋     | 9/19 [00:00<00:02,  4.38MB/s]assessment_higher_education_1589523927255.zip:  63%|██████▎   | 12/19 [00:01<00:01,  5.88MB/s]assessment_higher_education_1589523927255.zip:  79%|███████▉  | 15/19 [00:01<00:00,  7.55MB/s]assessment_higher_education_1589523927255.zip: 100%|██████████| 19/19 [00:01<00:00,  9.66MB/s]assessment_higher_education_1589523927255.zip: 20MB [00:01, 14.63MB/s]                        
+access-2020-05-14.csv.gz: 0MB [00:00, ?MB/s]access-2020-05-14.csv.gz: 1MB [00:00,  8.77MB/s]
+video-2020-05-14.csv.gz: 0MB [00:00, ?MB/s]video-2020-05-14.csv.gz: 1MB [00:00,  2.60MB/s]video-2020-05-14.csv.gz: 1MB [00:00,  2.41MB/s]

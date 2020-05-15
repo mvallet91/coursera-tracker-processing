@@ -1,0 +1,7 @@
+clickstreams/
+config.py
+clickstreams_zipped/
+logger.txt
+__pycache__
+tables/
+cron_log.txt
