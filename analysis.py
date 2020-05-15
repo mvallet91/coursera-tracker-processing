@@ -1,9 +1,15 @@
-import datetime, json, os, csv, gzip, math
+import csv
+import datetime
+import gzip
+import json
+import math
+import os
 from collections import defaultdict
+from config import tables_path, current_cohort_id, early_activity_limit, clickstream_path, \
+    previous_cohort_max_forum_score, previous_cohort_max_time_on_platform
 from operator import itemgetter
 from pymongo import MongoClient
 from random import randint
-from config import tables_path, current_cohort_id, early_activity_limit, clickstream_path, previous_cohort_max_forum_score, previous_cohort_max_time_on_platform
 
 client = MongoClient('localhost', 27017)
 db = client.course_x_db
@@ -18,25 +24,29 @@ csv.register_dialect(
     lineterminator='\n',
     quotechar='"')
 
-url_header_main = ['', '', '', '', 'course', 'type', 'item_id', 'item_name', 'desc', 'discussion_type', 'discussion_id']
+url_header_main = ['', '', '', '', 'course', 'type', 'item_id', 'item_name', 'desc',
+                   'discussion_type', 'discussion_id']
 url_header_home = ['', '', '', '', 'course', 'type', 'item_name', 'section', 'detail']
-url_header_discussion = ['', '', '', '', 'course', 'type', 'timespan', 'timespan_number', 'discussion_type', 'discussion_id']
+url_header_discussion = ['', '', '', '', 'course', 'type', 'timespan', 'timespan_number',
+                         'discussion_type', 'discussion_id']
+
 
 def process_url(url):
     url_detail = {}
     url_parts = url.split('/')
     try:
-        if url_parts[5] == 'home': 
+        if url_parts[5] == 'home':
             url_header = url_header_home
-        elif url_parts[5] == 'discussion': 
+        elif url_parts[5] == 'discussion':
             url_header = url_header_discussion
         else:
             url_header = url_header_main
         for j, url_part in enumerate(url_parts):
             url_detail[url_header[j]] = url_parts[j]
-        return(url_detail)
+        return url_detail
     except:
         pass
+
 
 def process_coursera_csv_table(file_location, preferred_id=0):
     with open(file_location, 'r', encoding='utf-8') as f:
@@ -52,9 +62,10 @@ def process_coursera_csv_table(file_location, preferred_id=0):
                 try:
                     item[header[i]] = datetime.datetime.strptime(row[i], '%Y-%m-%d %H:%M:%S.%f')
                 except ValueError:
-                    item[header[i]] = datetime.datetime.strptime(row[i], '%Y-%m-%d %H:%M:%S')                
-        table[row[preferred_id]] = item 
+                    item[header[i]] = datetime.datetime.strptime(row[i], '%Y-%m-%d %H:%M:%S')
+        table[row[preferred_id]] = item
     return table
+
 
 def process_coursera_csv_table_no_id(file_location):
     with open(file_location, 'r', encoding='utf-8') as f:
@@ -70,16 +81,15 @@ def process_coursera_csv_table_no_id(file_location):
                 try:
                     item[header[i]] = datetime.datetime.strptime(row[i], '%Y-%m-%d %H:%M:%S.%f')
                 except ValueError:
-                    item[header[i]] = datetime.datetime.strptime(row[i], '%Y-%m-%d %H:%M:%S')                
-        table.append(item) 
-#     print(len(table))
+                    item[header[i]] = datetime.datetime.strptime(row[i], '%Y-%m-%d %H:%M:%S')
+        table.append(item)
+    #     print(len(table))
     return table
 
 
-############################################################################################################################
-# Tables ###################################################################################################################
-############################################################################################################################
-
+#######################################################################################################################
+# Tables ##############################################################################################################
+#######################################################################################################################
 peer_comments = process_coursera_csv_table(os.path.join(tables_path, 'peer_comments.csv'))
 course_progress = process_coursera_csv_table_no_id(os.path.join(tables_path, 'course_progress.csv'))
 course_items = process_coursera_csv_table(os.path.join(tables_path, 'course_items.csv'), 1)
@@ -96,11 +106,11 @@ for item in course_items:
     item_module = course_modules[item_lesson['course_module_id']]
     item_dict['course_module_order'] = item_module['course_module_order']
     item_list.append(item_dict)
-items_weekly_sorted = sorted(item_list, key = lambda i: i['course_module_order'])
+items_weekly_sorted = sorted(item_list, key=lambda i: i['course_module_order'])
 
-############################################################################################################################
-# Cohorts and Dates ########################################################################################################
-############################################################################################################################
+######################################################################################################################
+# Cohorts and Dates ##################################################################################################
+######################################################################################################################
 cohort_sessions = process_coursera_csv_table(os.path.join(tables_path, 'on_demand_sessions.csv'), 1)
 cohort_membership = process_coursera_csv_table_no_id(os.path.join(tables_path, 'on_demand_session_memberships.csv'))
 
@@ -111,42 +121,42 @@ current_cohort['finishing_week'] = current_cohort['on_demand_sessions_end_ts'].i
 for member in cohort_membership:
     if member['on_demand_session_id'] == current_cohort_id:
         cohort_members[member['erasmus_user_id']] = member
-        
+
 cohort_start = datetime.datetime.strptime(str(current_cohort['on_demand_sessions_start_ts'].date()), '%Y-%m-%d')
 
 module_deadlines = {}
-for x in range(len(course_modules)+1):
+for x in range(len(course_modules) + 1):
     module_deadlines[x] = datetime.datetime.strptime(
-        str(current_cohort['on_demand_sessions_start_ts'].date() + 
+        str(current_cohort['on_demand_sessions_start_ts'].date() +
             datetime.timedelta(days=7) * (x + 1)),
-        '%Y-%m-%d') - datetime.timedelta(0,0,1)
-    
+        '%Y-%m-%d') - datetime.timedelta(0, 0, 1)
+
 module_starts = {}
-for x in range(len(course_modules)+1):
+for x in range(len(course_modules) + 1):
     module_starts[x] = datetime.datetime.strptime(
-        str(current_cohort['on_demand_sessions_start_ts'].date() + 
+        str(current_cohort['on_demand_sessions_start_ts'].date() +
             datetime.timedelta(days=7) * x),
-        '%Y-%m-%d') - datetime.timedelta(0,0,1)
-        
-############################################################################################################################        
-# Access Clickstream and Sessions ##########################################################################################
-############################################################################################################################
-filedates = []
+        '%Y-%m-%d') - datetime.timedelta(0, 0, 1)
+
+#######################################################################################################################
+# Access Clickstream and Sessions #####################################################################################
+#######################################################################################################################
+file_dates = []
 total_access = []
 for file in os.listdir(clickstream_path):
     if file.startswith('access') and file.endswith('csv.gz'):
-        filedates.append(datetime.datetime.strptime(file[7:17], '%Y-%m-%d')  )
+        file_dates.append(datetime.datetime.strptime(file[7:17], '%Y-%m-%d'))
         with gzip.open(os.path.join('clickstream_downloads', file), 'rt') as f:
             reader = csv.reader(f, dialect='coursera-postgres-format')
             access = list(reader)
         for line in access:
             total_access.append(line)
-            
-filedates = []
+
+file_dates = []
 total_access = []
 for file in os.listdir(clickstream_path):
     if file.startswith('access') and file.endswith('csv'):
-        filedates.append(datetime.datetime.strptime(file[7:17], '%Y-%m-%d')  )
+        file_dates.append(datetime.datetime.strptime(file[7:17], '%Y-%m-%d'))
         with open(os.path.join(clickstream_path, file), 'r') as f:
             reader = csv.reader(f, dialect='coursera-postgres-format')
             access = list(reader)
@@ -157,10 +167,10 @@ header = ['hashed_user_id', 'hashed_session_id', 'timestamp', 'hashed_ip', 'user
           'course_branch_id', 'country', 'region', 'timezone', 'OS', 'browser', 'key', 'json_event']
 
 learner_access = defaultdict(list)
-for log in total_access: 
+for log in total_access:
     item = {}
     for i, field in enumerate(log):
-        item[header[i]] = log[i]   
+        item[header[i]] = log[i]
         if header[i] == 'timestamp':
             item[header[i]] = datetime.datetime.strptime(log[i], '%Y-%m-%d %H:%M:%S.%f')
         if header[i] == 'url':
@@ -170,42 +180,43 @@ for log in total_access:
 sorted_access = {}
 for learner in learner_access:
     current_session = ''
-    sorted_clicks = sorted(learner_access[learner], key = lambda i: i['timestamp'])
+    sorted_clicks = sorted(learner_access[learner], key=lambda i: i['timestamp'])
     sorted_access[learner] = sorted_clicks
-        
-############################################################################################################################    
-# Course Progress  #########################################################################################################
-############################################################################################################################
-course_progress = process_coursera_csv_table_no_id(os.path.join(tables_path, 'course_progress.csv'))    
+
+#######################################################################################################################
+# Course Progress  ####################################################################################################
+#######################################################################################################################
+course_progress = process_coursera_csv_table_no_id(os.path.join(tables_path, 'course_progress.csv'))
 learner_activities = defaultdict(list)
 header = ['course_id', 'course_item_id', 'erasmus_user_id', 'course_progress_state_type_id', 'course_progress_ts']
-for log in course_progress: 
+for log in course_progress:
     log['timestamp'] = log['course_progress_ts']
     if log['erasmus_user_id'] in cohort_members:
-        
+
         if early_activity_limit == 'learner_enrollment':
-            ### Date of activities before session start is moved to individual learner session start
+            # Date of activities before session start is moved to individual learner session start
             if log['course_progress_ts'] < cohort_members[log['erasmus_user_id']]['on_demand_sessions_membership_start_ts']:
-                log['course_progress_ts'] = cohort_members[log['erasmus_user_id']]['on_demand_sessions_membership_start_ts']
-            
-        elif early_activity_limit == 'cohort_enrollment':    
-            ### Date of activities before session start is moved to official session start
+                log['course_progress_ts'] = cohort_members[log['erasmus_user_id']][
+                    'on_demand_sessions_membership_start_ts']
+
+        elif early_activity_limit == 'cohort_enrollment':
+            # Date of activities before session start is moved to official session start
             if log['course_progress_ts'] < current_cohort['on_demand_sessions_start_ts']:
-                log['course_progress_ts'] = current_cohort['on_demand_sessions_start_ts']   
-        
+                log['course_progress_ts'] = current_cohort['on_demand_sessions_start_ts']
+
         learner_activities[log['erasmus_user_id']].append(log)
 
 all_actions = {}
 for learner in learner_activities:
-    learner_activities[learner] = sorted(learner_activities[learner], key = lambda i: i['course_progress_ts'])
-    
+    learner_activities[learner] = sorted(learner_activities[learner], key=lambda i: i['course_progress_ts'])
+
     actions = learner_activities[learner]
     if learner in sorted_access:
-        actions = actions + sorted_access[learner]  
-        
-    all_actions[learner] = sorted(actions, key = lambda i: i['timestamp'])
-        
-active_items =[]
+        actions = actions + sorted_access[learner]
+
+    all_actions[learner] = sorted(actions, key=lambda i: i['timestamp'])
+
+active_items = []
 active_by_type = defaultdict(list)
 items_by_type = defaultdict(list)
 
@@ -222,22 +233,22 @@ passing_cohort_learners = []
 for learner in learner_activities:
     if learner in course_grades:
         passing_cohort_learners.append(learner)
-        
+
 ############################################################################################################################
 # Forum Interaction ########################################################################################################
 ############################################################################################################################                    
-                    
+
 discussion_items = []
 for item_type in item_types:
     if item_types[item_type]['course_item_type_category'] == 'discussionPrompt':
         discussion_items.append(item_type)
-        
-discussion_item_ids = []        
+
+discussion_item_ids = []
 for item in course_items:
     item_type_id = course_items[item]['course_item_type_id']
     if item_type_id in discussion_items:
         discussion_item_ids.append(item)
-        
+
 discussion_questions = process_coursera_csv_table(os.path.join(tables_path, 'discussion_questions.csv'))
 discussion_answers = process_coursera_csv_table(os.path.join(tables_path, 'discussion_answers.csv'))
 
@@ -248,14 +259,14 @@ for question in discussion_questions:
     post['forum_activity_type'] = 'post_question'
     post['timestamp'] = post['discussion_question_created_ts']
     discussion_posts[learner].append(post)
-    
+
 for answer in discussion_answers:
     post = discussion_answers[answer]
     learner = discussion_answers[answer]['erasmus_discussions_user_id']
     post['forum_activity_type'] = 'post_answer'
     post['timestamp'] = post['discussion_answer_created_ts']
     discussion_posts[learner].append(post)
-    
+
 ############################################################################################################################
 # Current Grades ###########################################################################################################
 ############################################################################################################################
@@ -309,35 +320,35 @@ for learner in learner_activities:
         item_type = course_items[item]['course_item_type_id']
         category = item_types[item_type]['course_item_type_desc']
         started_by_type[category].append(item)
-        
+
     started_percentages = {}
     completed_percentages = {}
 
-    percentage_completed = round(len(completed_items)/len(course_items)*100, 3)
-    percentage_started = round(len(started_items)/len(course_items)*100, 3)
+    percentage_completed = round(len(completed_items) / len(course_items) * 100, 3)
+    percentage_started = round(len(started_items) / len(course_items) * 100, 3)
 
     completed_percentages['total'] = (percentage_completed, len(completed_items))
     started_percentages['total'] = percentage_started
 
     for category in active_by_type:
-        percentage_active_completed = round(len(completed_by_type[category])/len(active_by_type[category])*100, 2)
-        percentage_active_started = round(len(started_by_type[category])/len(active_by_type[category])*100, 2)
+        percentage_active_completed = round(len(completed_by_type[category]) / len(active_by_type[category]) * 100, 2)
+        percentage_active_started = round(len(started_by_type[category]) / len(active_by_type[category]) * 100, 2)
 
     for category in items_by_type:
-        percentage_completed = round(len(completed_by_type[category])/len(items_by_type[category])*100, 2)
+        percentage_completed = round(len(completed_by_type[category]) / len(items_by_type[category]) * 100, 2)
         completed_percentages[category] = (percentage_completed, len(completed_by_type[category]))
 
-        percentage_started = round(len(started_by_type[category])/len(items_by_type[category])*100, 2)
+        percentage_started = round(len(started_by_type[category]) / len(items_by_type[category]) * 100, 2)
         started_percentages[category] = percentage_started
-    
+
     completed_percentages_by_learner_total[learner] = completed_percentages['total']
     completed_percentages_by_learner_discussion[learner] = completed_percentages['discussion prompt']
     completed_percentages_by_learner_assignment[learner] = completed_percentages['phased peer']
     completed_percentages_by_learner_readings[learner] = completed_percentages['supplement']
     completed_percentages_by_learner_videos[learner] = completed_percentages['lecture']
-    
+
     started_percentages_by_learner[learner] = started_percentages
-    
+
     ##############################################################################
     # Timeliness - time from completing activity to end of week ##################
     ##############################################################################
@@ -347,12 +358,12 @@ for learner in learner_activities:
         if activity['course_progress_state_type_id'] != '2': continue
         item_id = activity['course_item_id']
         module_deadline = module_deadlines[int(course_items[activity['course_item_id']]['course_module_order'])]
-        difference = module_deadline - activity['course_progress_ts']    
+        difference = module_deadline - activity['course_progress_ts']
         timeliness.append(difference)
 
-    if len(timeliness) > 0: 
+    if len(timeliness) > 0:
 
-        timeliness_avg = sum(timeliness, datetime.timedelta(0))/len(timeliness)
+        timeliness_avg = sum(timeliness, datetime.timedelta(0)) / len(timeliness)
 
         if timeliness_avg.days > 0:
             phrase = 'hours in advance'
@@ -361,35 +372,34 @@ for learner in learner_activities:
             phrase = 'hours late'
             timeliness_by_learner[learner] = 0
 
-    
     ##############################################################################
     # Early Start - time from starting activity to end of week ###################
     ##############################################################################
-    
+
     starting_times = []
     for activity in learner_activities[learner]:
         if activity['course_progress_state_type_id'] != '1': continue
         item_id = activity['course_item_id']
         module_start = module_starts[int(course_items[activity['course_item_id']]['course_module_order'])]
-        difference = module_start - activity['course_progress_ts']    
+        difference = module_start - activity['course_progress_ts']
         starting_times.append(difference)
 
-    if len(starting_times) > 0: 
-        starting_times_avg = sum(starting_times, datetime.timedelta(0))/len(starting_times)
+    if len(starting_times) > 0:
+        starting_times_avg = sum(starting_times, datetime.timedelta(0)) / len(starting_times)
 
-        if starting_times_avg.days > 0: 
+        if starting_times_avg.days > 0:
             phrase = 'hours before the start of the week'
             early_start_by_learner[learner] = min(7, starting_times_avg.days)
         else:
-            phrase = 'hours after the start of the week'  
+            phrase = 'hours after the start of the week'
             early_start_by_learner[learner] = 0
-    
+
     ##############################################################################
     # Reviewing ##################################################################
     ##############################################################################
-    
+
     items_accessed = defaultdict(set)
-    
+
     if learner in sorted_access:
         for access in sorted_access[learner]:
             if 'url_detail' in access:
@@ -402,19 +412,20 @@ for learner in learner_activities:
         for day in items_accessed:
             for item in items_accessed[day]:
                 if item in completed_items:
-                    if datetime.datetime.strptime(day, '%Y-%m-%d').date() > completed_items[item]['course_progress_ts'].date():
+                    if datetime.datetime.strptime(day, '%Y-%m-%d').date() > completed_items[item][
+                        'course_progress_ts'].date():
                         items_reviewed[day].append(item)
-            daily_reviews.append(len(items_reviewed[day])/len(items_accessed[day]))
+            daily_reviews.append(len(items_reviewed[day]) / len(items_accessed[day]))
 
         if len(daily_reviews) < 1:
             percentage_reviewed_by_learner[learner] = 0
         else:
-            percentage_reviewed_by_learner[learner] = round(sum(daily_reviews)/len(daily_reviews)*100, 3)
+            percentage_reviewed_by_learner[learner] = round(sum(daily_reviews) / len(daily_reviews) * 100, 3)
 
-    ##############################################################################
-    # Forum Score ################################################################
-    ##############################################################################
-        
+        ##############################################################################
+        # Forum Score ################################################################
+        ##############################################################################
+
         forum_activities = []
 
         for access in sorted_access[learner]:
@@ -433,12 +444,12 @@ for learner in learner_activities:
         answer_others = []
         post_question = []
 
-        for activity in sorted(forum_activities, key = lambda i: i['timestamp']):
+        for activity in sorted(forum_activities, key=lambda i: i['timestamp']):
             if activity['forum_activity_type'] == 'access':
                 forum_visits.append(activity['timestamp'])
             if 'discussion_answer_id' in activity:
                 if activity['discussion_answer_id'] in own_posts or activity['discussion_question_id'] in own_posts:
-                    answer_own_thread.append(activity['timestamp']) 
+                    answer_own_thread.append(activity['timestamp'])
                 else:
                     answer_others.append(activity['timestamp'])
                 own_posts.append(activity['discussion_answer_id'])
@@ -449,12 +460,13 @@ for learner in learner_activities:
         if len(forum_visits) == 0:
             weighted_forum_score_by_learner[learner] = 0
         else:
-            weighted_forum_score_by_learner[learner] = (len(post_question)*0.5 + len(answer_own_thread)*0.2 + len(answer_others)*0.3) / len(forum_visits)
+            weighted_forum_score_by_learner[learner] = (len(post_question) * 0.5 + len(answer_own_thread) * 0.2 + len(
+                answer_others) * 0.3) / len(forum_visits)
 
     ##############################################################################
     # Current Grades #############################################################
     ##############################################################################
-    
+
     learner_grades = {}
     for graded_item in item_grades:
         if graded_item['erasmus_user_id'] == learner:
@@ -467,15 +479,15 @@ for learner in learner_activities:
     ##############################################################################
     # Average Daily Efficiency ###################################################
     ##############################################################################
-    
+
     items_completed = {}
     for activity in learner_activities[learner]:
-        item_id = activity['course_item_id']   
+        item_id = activity['course_item_id']
         items_completed[item_id] = {'started': '', 'completed': ''}
 
-    active_days = set()    
+    active_days = set()
     for activity in learner_activities[learner]:
-        item_id = activity['course_item_id']   
+        item_id = activity['course_item_id']
         if activity['course_progress_state_type_id'] == '2':
             items_completed[item_id]['completed'] = activity['course_progress_ts'].date()
             active_days.add(str(activity['course_progress_ts'].date()))
@@ -494,13 +506,14 @@ for learner in learner_activities:
         else:
             items_not_completed_same_day[str(items_completed[item]['started'])].add(item)
 
-    efficiency_daily = []        
+    efficiency_daily = []
     for day in list(active_days):
-        efficiency_daily.append(len(items_completed_same_day[day]) / (len(items_completed_same_day[day]) + len(items_not_completed_same_day)))
-    efficiency_avg = sum(efficiency_daily)/len(efficiency_daily)
-    
+        efficiency_daily.append(len(items_completed_same_day[day]) / (
+                len(items_completed_same_day[day]) + len(items_not_completed_same_day)))
+    efficiency_avg = sum(efficiency_daily) / len(efficiency_daily)
+
     efficiency_by_learner[learner] = efficiency_avg
-    
+
     ##############################################################################
     # Sessions ###################################################################
     ##############################################################################
@@ -516,16 +529,16 @@ for learner in learner_activities:
 
         else:
 
-            if event_logs[i]["timestamp"] > end_time + datetime.timedelta(hours = 0.5):
+            if event_logs[i]["timestamp"] > end_time + datetime.timedelta(hours=0.5):
 
                 session_id = learner + "_" + str(start_time) + "_" + str(end_time)
                 duration = (end_time - start_time).seconds
 
                 if duration > 5:
                     array = (session_id, learner, start_time, end_time, duration)
-                    learner_sessions.append(array)                   
+                    learner_sessions.append(array)
 
-                # Re-initialization
+                    # Re-initialization
                 session_id = ""
                 start_time = event_logs[i]["timestamp"]
                 end_time = event_logs[i]["timestamp"]
@@ -553,36 +566,38 @@ for learner in learner_activities:
     durations = []
     for session in learner_sessions:
         durations.append(session[4])
-    time_spent_by_learner[learner] = sum(durations)/60
+    time_spent_by_learner[learner] = sum(durations) / 60
 
 metrics = {
     'metric_1': percentage_reviewed_by_learner,
     'metric_2': weighted_forum_score_by_learner,
     'metric_3': efficiency_by_learner,
-    'metric_4': time_spent_by_learner, 
-    'metric_5': early_start_by_learner, 
-    'metric_6': timeliness_by_learner, 
-    'metric_7': completed_percentages_by_learner_total, 
-    'metric_8': completed_percentages_by_learner_discussion, 
-    'metric_9': completed_percentages_by_learner_assignment, 
-    'metric_10': completed_percentages_by_learner_readings, 
-    'metric_11': completed_percentages_by_learner_videos, 
+    'metric_4': time_spent_by_learner,
+    'metric_5': early_start_by_learner,
+    'metric_6': timeliness_by_learner,
+    'metric_7': completed_percentages_by_learner_total,
+    'metric_8': completed_percentages_by_learner_discussion,
+    'metric_9': completed_percentages_by_learner_assignment,
+    'metric_10': completed_percentages_by_learner_readings,
+    'metric_11': completed_percentages_by_learner_videos,
     'metric_12': current_grade_by_learner,
 }
 
+
 def scale_metric(metric, value):
     scaled_value = str(value) + ' not scaled'
-    if metric in ['metric_1','metric_3','metric_12']:
-        scaled_value = value*10
-    if metric in ['metric_7','metric_8','metric_9','metric_10','metric_11']:
-        scaled_value = value/10
+    if metric in ['metric_1', 'metric_3', 'metric_12']:
+        scaled_value = value * 10
+    if metric in ['metric_7', 'metric_8', 'metric_9', 'metric_10', 'metric_11']:
+        scaled_value = value / 10
     if metric in ['metric_5', 'metric_6']:
-        scaled_value = value*10/7
+        scaled_value = value * 10 / 7
     if metric == 'metric_4':
-        scaled_value = value*10/previous_cohort_max_time_on_platform
+        scaled_value = value * 10 / previous_cohort_max_time_on_platform
     if metric == 'metric_2':
-        scaled_value = value*10/previous_cohort_max_forum_score
+        scaled_value = value * 10 / previous_cohort_max_forum_score
     return round(scaled_value, 2)
+
 
 for learner in learner_activities:
     metric_values = {}
@@ -611,4 +626,3 @@ for learner in learner_activities:
         'metrics': metric_values
     }
     user_data.insert_one(daily_value)
-

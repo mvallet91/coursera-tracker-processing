@@ -2,14 +2,16 @@ import subprocess
 import os
 import gzip
 import shutil
+from config import course_list
 from zipfile import ZipFile
 from datetime import date, timedelta, datetime
 
-def check_status(log_file, user_id_hashing):
+
+def check_status(log_file, course_slug, user_id_hashing_type):
     today = (date.today()).strftime('%Y-%m-%d')
     yesterday = (date.today() - timedelta(1)).strftime('%Y-%m-%d')
     to_request = ['TABLES', 'CLICKSTREAM']
-    downloaded = []
+    downloaded_types = []
     p = subprocess.Popen(['/usr/local/bin/courseraresearchexports', 'jobs', 'get_all'], stdout=subprocess.PIPE)
     out, err = p.communicate()
     lines = out.strip().decode().split('\n')
@@ -23,64 +25,53 @@ def check_status(log_file, user_id_hashing):
             if 'SUCCESSFUL' in line:
                 if export_type in line:
                     download_job(job_id, log_file)
-                    downloaded.append(export_type)
+                    downloaded_types.append(export_type)
     if 'TABLES' in to_request:
-        get_tables(log_file, user_id_hashing)
+        get_tables(log_file, course_slug, user_id_hashing_type)
     if 'CLICKSTREAM' in to_request:
-        get_clickstream(log_file, yesterday, yesterday)
-    return downloaded
+        get_clickstream(log_file, course_slug, yesterday, yesterday)
+    return downloaded_types
 
-def get_tables(path, user_id_hashing):
-    course_slug = 'assessment-higher-education'
+
+def process_data_request(path, request):
+    with open(path, 'a') as f:
+        f.write(str(datetime.now()) + '\n')
+        p = subprocess.Popen(request, stdout=subprocess.PIPE)
+        out, err = p.communicate()
+        with open(path, 'a') as f:
+            f.write(out.strip().decode())
+            if err:
+                f.write(err.strip().decode())
+
+
+def get_tables(path, course_slug, user_id_hashing_type):
     purpose = 'diy widget ' + str(date.today())
 
     request_tables = ['/usr/local/bin/courseraresearchexports', 'jobs', 'request',
-        'tables', '--course_slug', course_slug,
-        '--purpose', purpose,
-        '--user_id_hashing', user_id_hashing]
+                      'tables', '--course_slug', course_slug,
+                      '--purpose', purpose,
+                      '--user_id_hashing', user_id_hashing_type]
 
-    with open(path, 'a') as f:
-        f.write(str(datetime.now())+'\n')
-        p = subprocess.Popen(request_tables, stdout=subprocess.PIPE)
-        out, err = p.communicate()
-        with open(path, 'a') as f:
-            f.write(out.strip().decode())
-            if err:
-                f.write(err.strip().decode())
+    process_data_request(path, request_tables)
 
-def get_clickstream(path, interval_start, interval_end):
-    course_slug = 'assessment-higher-education'
+
+def get_clickstream(path, course_slug, interval_start, interval_end):
     purpose = 'diy widget ' + str(date.today())
-    yesterday = (date.today() - timedelta(1)).strftime('%Y-%m-%d')
-    interval_start = yesterday
-    interval_end = yesterday
 
     request_clickstream = ['/usr/local/bin/courseraresearchexports', 'jobs', 'request',
-        'clickstream', '--course_slug', course_slug,
-        '--interval', interval_start, interval_end,
-        '--purpose', purpose]
+                           'clickstream', '--course_slug', course_slug,
+                           '--interval', interval_start, interval_end,
+                           '--purpose', purpose]
 
-    with open(path, 'a') as f:
-        f.write(str(datetime.now())+'\n')
-        p = subprocess.Popen(request_clickstream, stdout=subprocess.PIPE)
-        out, err = p.communicate()
-        with open(path, 'a') as f:
-            f.write(out.strip().decode())
-            if err:
-                f.write(err.strip().decode())
+    process_data_request(path, request_clickstream)
+
 
 def download_job(job_id, log_path):
     download_command = ['/usr/local/bin/courseraresearchexports', 'jobs', 'download', job_id]
-    p = subprocess.Popen(download_command, stdout=subprocess.PIPE)
-    out, err = p.communicate()
-    with open(log_path, 'a') as f:
-        f.write(out.strip().decode())
-        if err:
-            f.write(err.strip().decode())
+    process_data_request(log_path, download_command)
+
 
 def process_files():
-    filedates = []
-    total_access = []
     for file in os.listdir('.'):
         if file.endswith('csv.gz'):
             try:
@@ -101,20 +92,24 @@ def process_files():
             except:
                 print(file, 'is not a zip file')
 
+
 if __name__ == '__main__':
 
-    log_file = '/home/learning-tracker/automater/logger.txt'
+    log_file_path = '/home/learning-tracker/automater/logger.txt'
     user_id_hashing = 'isolated'
 
-    with open(log_file, 'r') as f:
-        log_content = f.readlines()
+    # current_course_slug = 'assessment-higher-education'
 
-    if log_content[-1] == 'READY ' + str(date.today()):
-        import analysis
-    else:
-        downloaded = check_status(log_file, user_id_hashing)
-        if len(downloaded) == 2:
-            process_files()
-            with open(log_file, 'a') as f:
-                success = 'READY ' + str(date.today())
-                f.write(success)
+    for current_course_slug in course_list:
+        with open(log_file_path, 'r') as f:
+            log_content = f.readlines()
+
+        if log_content[-1] == 'READY ' + str(date.today()):
+            import analysis
+        else:
+            downloaded = check_status(log_file_path, current_course_slug, user_id_hashing)
+            if len(downloaded) == 2:
+                process_files()
+                with open(log_file_path, 'a') as f:
+                    success = 'READY ' + str(date.today())
+                    f.write(success)
