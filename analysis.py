@@ -508,8 +508,11 @@ for learner in learner_activities:
 
     efficiency_daily = []
     for day in list(active_days):
-        efficiency_daily.append(len(items_completed_same_day[day]) / (
-                len(items_completed_same_day[day]) + len(items_not_completed_same_day)))
+        if len(items_completed_same_day[day]) > 0:
+            efficiency_daily.append(len(items_completed_same_day[day]) / (
+                    len(items_completed_same_day[day]) + len(items_not_completed_same_day)))
+        else:
+            efficiency_daily.append(0)
     efficiency_avg = sum(efficiency_daily) / len(efficiency_daily)
 
     efficiency_by_learner[learner] = efficiency_avg
