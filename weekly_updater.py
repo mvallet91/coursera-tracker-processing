@@ -12,7 +12,7 @@ for res in widget_settings.find({}):
 for learner in active_learners:
     latest_record = widget_settings.find({'hashed_user_id': learner}).sort('timestamp', -1).limit(1)
     for res in latest_record:
-        widget_settings = {
+        widget_values = {
         'course_branch_id': res['course_branch_id'],
         'hashed_user_id': learner,
         'consent': res['consent'],
@@ -24,4 +24,4 @@ for learner in active_learners:
         'timestamp': datetime.datetime.now()
         }
 
-        widget_settings.insert_one(widget_settings)
+        widget_settings.insert_one(widget_values)
