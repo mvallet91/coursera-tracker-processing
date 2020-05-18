@@ -3,7 +3,7 @@ from pymongo import MongoClient
 
 client = MongoClient('localhost', 27017)
 db = client.course_x_db
-widget_data = db.widget_data
+widget_settings = db.widget_settings
 
 active_learners = set()
 for res in widget_data.find({}):
@@ -24,4 +24,4 @@ for learner in active_learners:
         'timestamp': datetime.datetime.now()
         }
 
-        widget_data.insert_one(widget_settings)
+        widget_settings.insert_one(widget_settings)
