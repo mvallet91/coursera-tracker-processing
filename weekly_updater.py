@@ -6,11 +6,11 @@ db = client.course_x_db
 widget_settings = db.widget_settings
 
 active_learners = set()
-for res in widget_data.find({}):
+for res in widget_settings.find({}):
     active_learners.add(res['hashed_user_id'])
     
 for learner in active_learners:
-    latest_record = widget_data.find({'hashed_user_id': learner}).sort('timestamp', -1).limit(1)
+    latest_record = widget_settings.find({'hashed_user_id': learner}).sort('timestamp', -1).limit(1)
     for res in latest_record:
         widget_settings = {
         'course_branch_id': res['course_branch_id'],
