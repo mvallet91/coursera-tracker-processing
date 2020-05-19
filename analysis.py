@@ -6,7 +6,7 @@ import math
 import os
 from collections import defaultdict
 from config import tables_path, current_cohort_id, early_activity_limit, clickstream_path, \
-    previous_cohort_max_forum_score, previous_cohort_max_time_on_platform
+    previous_cohort_max_forum_score, previous_cohort_max_time_on_platform, cohort_list
 from operator import itemgetter
 from pymongo import MongoClient
 from random import randint
@@ -116,28 +116,38 @@ cohort_sessions = process_coursera_csv_table(os.path.join(tables_path, 'on_deman
 cohort_membership = process_coursera_csv_table_no_id(os.path.join(tables_path, 'on_demand_session_memberships.csv'))
 
 cohort_members = {}
-current_cohort = cohort_sessions[current_cohort_id]
-current_cohort['starting_week'] = current_cohort['on_demand_sessions_start_ts'].isocalendar()[1]
-current_cohort['finishing_week'] = current_cohort['on_demand_sessions_end_ts'].isocalendar()[1]
-for member in cohort_membership:
-    if member['on_demand_session_id'] == current_cohort_id:
-        cohort_members[member['erasmus_user_id']] = member
+for current_cohort_id in cohort_list:
+    
+    current_cohort = cohort_sessions[current_cohort_id]
+    current_cohort['starting_week'] = current_cohort['on_demand_sessions_start_ts'].isocalendar()[1]
+    current_cohort['finishing_week'] = current_cohort['on_demand_sessions_end_ts'].isocalendar()[1]
+    for member in cohort_membership:
+        if member['on_demand_session_id'] == current_cohort_id:
+            cohort_members[member['erasmus_user_id']] = member    
+    
+    cohort_start = datetime.datetime.strptime(str(current_cohort['on_demand_sessions_start_ts'].date()), '%Y-%m-%d')
 
-cohort_start = datetime.datetime.strptime(str(current_cohort['on_demand_sessions_start_ts'].date()), '%Y-%m-%d')
+    module_deadlines = {}
+    for x in range(len(course_modules)+1):
+        module_deadlines[x] = datetime.datetime.strptime(
+            str(current_cohort['on_demand_sessions_start_ts'].date() + 
+                datetime.timedelta(days=7) * (x + 1)),
+            '%Y-%m-%d') - datetime.timedelta(0,0,1)
 
-module_deadlines = {}
-for x in range(len(course_modules) + 1):
-    module_deadlines[x] = datetime.datetime.strptime(
-        str(current_cohort['on_demand_sessions_start_ts'].date() +
-            datetime.timedelta(days=7) * (x + 1)),
-        '%Y-%m-%d') - datetime.timedelta(0, 0, 1)
-
-module_starts = {}
-for x in range(len(course_modules) + 1):
-    module_starts[x] = datetime.datetime.strptime(
-        str(current_cohort['on_demand_sessions_start_ts'].date() +
-            datetime.timedelta(days=7) * x),
-        '%Y-%m-%d') - datetime.timedelta(0, 0, 1)
+    module_starts = {}
+    for x in range(len(course_modules)+1):
+        module_starts[x] = datetime.datetime.strptime(
+            str(current_cohort['on_demand_sessions_start_ts'].date() + 
+                datetime.timedelta(days=7) * x),
+            '%Y-%m-%d') - datetime.timedelta(0,0,1)
+        
+    cohort_dates = {
+        'start': cohort_start,
+        'deadlines': module_deadlines,
+        'starts': module_starts
+    }
+    
+    cohort_sessions[current_cohort_id]['dates'] = cohort_dates
 
 #######################################################################################################################
 # Access Clickstream and Sessions #####################################################################################
@@ -225,10 +235,10 @@ for item in course_items:
     item_type = course_items[item]['course_item_type_id']
     category = item_types[item_type]['course_item_type_desc']
     items_by_type[category].append(item)
-    item_week = int(course_items[item]['course_module_order']) + current_cohort['starting_week']
-    if item_week <= datetime.datetime.today().isocalendar()[1]:
-        active_items.append(item)
-        active_by_type[category].append(item)
+    # item_week = int(course_items[item]['course_module_order']) + current_cohort['starting_week']
+    # if item_week <= datetime.datetime.today().isocalendar()[1]:
+    active_items.append(item)
+    active_by_type[category].append(item)
 
 passing_cohort_learners = []
 for learner in learner_activities:
@@ -358,7 +368,9 @@ for learner in learner_activities:
     for activity in learner_activities[learner]:
         if activity['course_progress_state_type_id'] != '2': continue
         item_id = activity['course_item_id']
-        module_deadline = module_deadlines[int(course_items[activity['course_item_id']]['course_module_order'])]
+        module_order = int(course_items[activity['course_item_id']]['course_module_order'])
+#         module_deadline = module_deadlines[module_order]
+        module_deadline = cohort_sessions[session_id]['dates']['deadlines'][module_order]
         difference = module_deadline - activity['course_progress_ts']
         timeliness.append(difference)
 
@@ -381,7 +393,9 @@ for learner in learner_activities:
     for activity in learner_activities[learner]:
         if activity['course_progress_state_type_id'] != '1': continue
         item_id = activity['course_item_id']
-        module_start = module_starts[int(course_items[activity['course_item_id']]['course_module_order'])]
+        module_order = int(course_items[activity['course_item_id']]['course_module_order'])
+        # module_start = module_starts[module_order]
+        module_start = cohort_sessions[session_id]['dates']['starts'][module_order]        
         difference = module_start - activity['course_progress_ts']
         starting_times.append(difference)
 
@@ -570,7 +584,7 @@ for learner in learner_activities:
     durations = []
     for session in learner_sessions:
         durations.append(session[4])
-    time_spent_by_learner[learner] = sum(durations) / 60
+    time_spent_by_learner[learner] = sum(durations)/60
 
 metrics = {
     'metric_1': percentage_reviewed_by_learner,
