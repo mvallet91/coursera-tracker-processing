@@ -603,6 +603,18 @@ metrics = {
 }
 
 
+def display_metric(metric, value):
+    display_value = value
+    if metric == 'metric_3':
+        display_value = round(value*100)
+    if metric in ['metric_7','metric_8','metric_9','metric_10','metric_11']:
+        display_value = round(value)
+    if metric == 'metric_4':
+        display_value = round(value/60, 1)
+    print(value, '-', display_value)
+    return display_value
+
+
 def scale_metric(metric, value):
     scaled_value = str(value) + ' not scaled'
     if metric in ['metric_1', 'metric_3', 'metric_12']:
@@ -634,7 +646,7 @@ for learner in learner_activities:
             scaled_value = scale_metric(metric, value)
         metric_values[metric] = {
             'name': metric,
-            'value': value,
+            'value': display_metric(metric, value),
             'absolute_value': absolute_value,
             'scaled_value': scaled_value
         }
