@@ -611,7 +611,6 @@ def display_metric(metric, value):
         display_value = round(value)
     if metric == 'metric_4':
         display_value = round(value/60, 1)
-    print(value, '-', display_value)
     return display_value
 
 
