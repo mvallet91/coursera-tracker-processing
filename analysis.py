@@ -363,7 +363,8 @@ for learner in learner_activities:
     ##############################################################################
     # Timeliness - time from completing activity to end of week ##################
     ##############################################################################
-
+    session_id = cohort_members[learner]['on_demand_session_id']
+    
     timeliness = []
     for activity in learner_activities[learner]:
         if activity['course_progress_state_type_id'] != '2': continue
