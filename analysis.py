@@ -97,6 +97,7 @@ course_lessons = process_coursera_csv_table(os.path.join(tables_path, 'course_le
 course_modules = process_coursera_csv_table(os.path.join(tables_path, 'course_modules.csv'), 1)
 course_grades = process_coursera_csv_table(os.path.join(tables_path, 'course_grades.csv'), 1)
 item_types = process_coursera_csv_table(os.path.join(tables_path, 'course_item_types.csv'))
+id_map = process_coursera_csv_table(os.path.join(tables_path, 'erasmus_course_user_ids.csv'))
 
 item_list = []
 for item in course_items:
@@ -625,7 +626,8 @@ for learner in learner_activities:
 
     daily_value = {
         'course_branch_id': current_cohort['course_branch_id'],
-        'hashed_user_id': learner,
+        'hashed_user_id': id_map[learner]['assessment_higher_education_user_id'],
+        'erasmus_user_id': learner,
         'timestamp': datetime.datetime.now(),
         'metrics': metric_values
     }
