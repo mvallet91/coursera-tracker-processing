@@ -628,7 +628,7 @@ def scale_metric(metric, value):
         scaled_value = value * 10 / previous_cohort_max_forum_score
     return round(scaled_value, 2)
 
-print(len(learner_activities), 'items to insert')
+print(len(learner_activities), 'items to insert', str(datetime.datetime.now()))
 
 for learner in learner_activities:
     metric_values = {}
