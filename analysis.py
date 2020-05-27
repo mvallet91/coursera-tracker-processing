@@ -97,6 +97,7 @@ course_lessons = process_coursera_csv_table(os.path.join(tables_path, 'course_le
 course_modules = process_coursera_csv_table(os.path.join(tables_path, 'course_modules.csv'), 1)
 course_grades = process_coursera_csv_table(os.path.join(tables_path, 'course_grades.csv'), 1)
 item_types = process_coursera_csv_table(os.path.join(tables_path, 'course_item_types.csv'))
+atom_item_types = process_coursera_csv_table(os.path.join(tables_path, 'course_item_types.csv'), 4)
 id_map = process_coursera_csv_table(os.path.join(tables_path, 'erasmus_course_user_ids.csv'))
 
 item_list = []
@@ -233,7 +234,10 @@ items_by_type = defaultdict(list)
 
 for item in course_items:
     item_type = course_items[item]['course_item_type_id']
-    category = item_types[item_type]['course_item_type_desc']
+    if item_type in item_types:
+        category = item_types[item_type]['course_item_type_desc']
+    elif item_type in atom_item_types:
+        category = atom_item_types[item_type]['course_item_type_desc']
     items_by_type[category].append(item)
     # item_week = int(course_items[item]['course_module_order']) + current_cohort['starting_week']
     # if item_week <= datetime.datetime.today().isocalendar()[1]:
@@ -324,12 +328,18 @@ for learner in learner_activities:
 
     for item in completed_items:
         item_type = course_items[item]['course_item_type_id']
-        category = item_types[item_type]['course_item_type_desc']
+        if item_type in item_types:
+            category = item_types[item_type]['course_item_type_desc']
+        elif item_type in atom_item_types:
+            category = atom_item_types[item_type]['course_item_type_desc']
         completed_by_type[category].append(item)
 
     for item in started_items:
         item_type = course_items[item]['course_item_type_id']
-        category = item_types[item_type]['course_item_type_desc']
+        if item_type in item_types:
+            category = item_types[item_type]['course_item_type_desc']
+        elif item_type in atom_item_types:
+            category = atom_item_types[item_type]['course_item_type_desc']
         started_by_type[category].append(item)
 
     started_percentages = {}
