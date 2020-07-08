@@ -2,7 +2,7 @@ import subprocess
 import os
 import gzip
 import shutil
-from config import course_list, log_file_path
+from config import course_list, working_directory
 from zipfile import ZipFile
 from datetime import date, timedelta, datetime
 
@@ -71,17 +71,17 @@ def download_job(job_id, log_path):
     process_data_request(log_path, download_command)
 
 
-def process_files():
+def process_files(working_directory):
     for file in os.listdir('.'):
         if file.endswith('csv.gz'):
             try:
                 with gzip.open(file, 'rt') as input_file:
                     content = input_file.read()
                     file_name = file.split('.')[0] + '.csv'
-                    file_path = os.path.join(current_directory, 'clickstreams')
+                    file_path = os.path.join(working_directory, 'clickstreams')
                     with open(os.path.join(file_path, file_name), 'w') as output_file:
                         output_file.write(content)
-                shutil.move(file, os.path.join(current_directory, 'clickstreams_zipped'))
+                shutil.move(file, os.path.join(working_directory, 'clickstreams_zipped'))
             except:
                 pass
         if file.endswith('.zip'):
@@ -97,7 +97,7 @@ if __name__ == '__main__':
 
     user_id_hashing = 'isolated'
     
-    log_file_path = os.path.join(current_directory, 'logger.txt')
+    log_file_path = os.path.join(working_directory, 'logger.txt')
     
     course_map = {'sdgbusiness': 'zn6pvDaiEemqUwqQt78jjg',
                   'assessment-higher-education': 'K9cwvyTbEeenjw6oiOFT7g'}
@@ -111,7 +111,7 @@ if __name__ == '__main__':
         else:
             downloaded = check_status(log_file_path, current_course_slug, user_id_hashing)
             if len(downloaded) == 2:
-                process_files()
+                process_files(working_directory)
                 with open(log_file_path, 'a') as f:
                     success = 'READY ' + str(date.today())
                     f.write(success)
