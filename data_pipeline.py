@@ -2,7 +2,7 @@ import subprocess
 import os
 import gzip
 import shutil
-from config import course_list
+from config import course_list, log_file_path
 from zipfile import ZipFile
 from datetime import date, timedelta, datetime
 
@@ -20,7 +20,7 @@ def check_status(log_file, course_slug, user_id_hashing_type):
         line = line.strip().split()
         job_id = line[2]
         export_type = line[4]
-        if today in line:
+        if today in line and course_map[course_slug] in line:
             to_request.remove(export_type)
             if 'SUCCESSFUL' in line:
                 if export_type in line:
@@ -78,10 +78,10 @@ def process_files():
                 with gzip.open(file, 'rt') as input_file:
                     content = input_file.read()
                     file_name = file.split('.')[0] + '.csv'
-                    file_path = '/home/learning-tracker/automater/clickstreams'
+                    file_path = os.path.join(current_directory, 'clickstreams')
                     with open(os.path.join(file_path, file_name), 'w') as output_file:
                         output_file.write(content)
-                shutil.move(file, '/home/learning-tracker/automater/clickstreams_zipped')
+                shutil.move(file, os.path.join(current_directory, 'clickstreams_zipped'))
             except:
                 pass
         if file.endswith('.zip'):
@@ -95,10 +95,12 @@ def process_files():
 
 if __name__ == '__main__':
 
-    log_file_path = '/home/learning-tracker/automater/logger.txt'
     user_id_hashing = 'isolated'
-
-    # current_course_slug = 'assessment-higher-education'
+    
+    log_file_path = os.path.join(current_directory, 'logger.txt')
+    
+    course_map = {'sdgbusiness': 'zn6pvDaiEemqUwqQt78jjg',
+                  'assessment-higher-education': 'K9cwvyTbEeenjw6oiOFT7g'}
 
     for current_course_slug in course_list:
         with open(log_file_path, 'r') as f:
