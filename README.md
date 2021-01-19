@@ -1,4 +1,4 @@
-# Coursera Learning Tracker
+# Coursera Learning Tracker Data Processing
 
 This is the processing and analytics module used in 
 **The Quantum of Choice: How learners' feedback monitoring decisions, goals and self-regulated learning skills are related** 
