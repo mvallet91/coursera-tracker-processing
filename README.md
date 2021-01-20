@@ -3,7 +3,9 @@
 This is the processing and analytics module used in 
 **The Quantum of Choice: How learners' feedback monitoring decisions, goals and self-regulated learning skills are related** 
 by Jivet, Wong, Scheffel, Valle Torre, Specht and Drachsler (LAK21).
-It consists of 3 main parts: the `data_pipeline`, the `analysis` and the `weekly_updater`.
+It consists of 3 main parts: the `data_pipeline`, the `analysis` and the `weekly_updater`. 
+
+The processed values are stored in a [`MongoDB`](https://www.mongodb.com/) instance, and they are presented to the learners via the [server and application interface](https://github.com/ioanajivet/DIY-LT), as a widget in Coursera. 
 
 ## Data Pipeline
 The data available from Coursera can be retrieved on a daily basis, using their [`courseraresearchexports`](https://github.com/coursera/courseraresearchexports) 
