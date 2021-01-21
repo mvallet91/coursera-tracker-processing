@@ -17,6 +17,10 @@ module (written in Python 2.7) via command line. Please refer to their documenta
 To complete these steps, `data_pipeline.py` is executed using `cron` 3 times every day, with an hour in between. In over 3 months of execution, there were minimal errors
 caused by not available jobs from Coursera or changes in some table headings, but files were always ready within the hour.
 
+<p align="center">
+    <img src="https://github.com/mvallet91/coursera-tracker-processing/blob/master/LearningTrackerData.png" width="500">
+</p>
+
 ## Analysis
 In this script the 12 metrics available in **The Quantum of Choice** are calculated using the tables and clickstream files obtained from the research exports. 
 ```
