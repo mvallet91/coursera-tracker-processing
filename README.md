@@ -20,6 +20,7 @@ caused by not available jobs from Coursera or changes in some table headings, bu
 <p align="center">
     <img src="https://github.com/mvallet91/coursera-tracker-processing/blob/master/LearningTrackerData.png" width="500">
 </p>
+
 The diagram above shows the data flow between the CourseraAPI (through [`courseraresearchexports`](https://github.com/coursera/courseraresearchexports) ), the Processing module and the database. The arrows in green represent the scheduled `cron` scripts, and in purple the `courseraresearchexports` responses.
 
 ## Analysis
